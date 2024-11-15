@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "aviator_dream",
+  "version": "2.0.0",
+
+  "name": "Aviator Dreams",
+  "description": "An Add-On aimed at adding real life airliners to the game.",
+  "authors": ["Nax"],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/aviator-dreams"
+  },
+
+  "license": "GNU GPL 3.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nax.aviator_dream.fabric.AviatorDreamsFabric"
+    ],
+    "client": [
+      "net.nax.aviator_dream.fabric.AviatorDreamsFabricClient"
+    ]
+  },
+  "mixins": [
+    "aviator_dream.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": ">=1.20.1",
+    "immersive_aircraft": ">=1.1.0"
+  }
+}

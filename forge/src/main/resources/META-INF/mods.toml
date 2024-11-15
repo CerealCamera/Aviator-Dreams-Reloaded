@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All-Rights-Reserved"
+
+[[mods]]
+modId = "aviator_dream"
+version = "${version}"
+displayName = "Aviator Dreams"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/aviator-dreams"
+authors = "Nax"
+description = "An Add-On aimed at adding real life airliners to the game."
+logoFile = "icon.png"
+itemIcon = "aviator_dream:douglas_dc1"
+
+[[dependencies.aviator_dream]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aviator_dream]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aviator_dream]]
+modId = "immersive_aircraft"
+mandatory = true
+versionRange = "[1.1.0,)"
+ordering = "NONE"
+side = "BOTH"

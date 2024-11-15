@@ -1,0 +1,178 @@
+{
+  "r1820_start": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r1820_start",
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "r1820_prop": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r1820_prop",
+        "attenuation_distance": 280
+      }
+    ]
+  },
+  "r1820_idle": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r1820_idle",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r1830_start": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r1830_start",
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "r1830_idle": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r1830_idle",
+        "attenuation_distance": 24
+      }
+    ]
+  },
+  "r3350_high": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r3350_high",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r_rev": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r_rev",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r_idle": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r_idle",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r_start": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r_start",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r3350_low": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r3350_low",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r3350_mid": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r3350_mid",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r3350_prop": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r3350_prop",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r3350_start": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r3350_start",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "r3350_stop": {
+    "sounds": [
+      {
+        "name": "aviator_dream:r3350_stop",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "ghost_start": {
+    "sounds": [
+      {
+        "name": "aviator_dream:ghost_start",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "ghost_stop": {
+    "sounds": [
+      {
+        "name": "aviator_dream:ghost_stop",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "ghost_idle": {
+    "sounds": [
+      {
+        "name": "aviator_dream:ghost_idle",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "ghost_high": {
+    "sounds": [
+      {
+        "name": "aviator_dream:ghost_high",
+        "attenuation_distance": 180
+      }
+    ]
+  },
+  "lynx_start": {
+    "sounds": [
+      {
+        "name": "aviator_dream:lynx_start",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "lynx_stop": {
+    "sounds": [
+      {
+        "name": "aviator_dream:lynx_stop",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "lynx_idle": {
+    "sounds": [
+      {
+        "name": "aviator_dream:lynx_idle",
+        "attenuation_distance": 80
+      }
+    ]
+  },
+  "lynx_high": {
+    "sounds": [
+      {
+        "name": "aviator_dream:lynx_high",
+        "attenuation_distance": 180
+      }
+    ]
+  }
+}

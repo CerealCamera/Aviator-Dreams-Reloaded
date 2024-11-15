@@ -1,0 +1,35 @@
+{
+  "item.aviator_dream.douglas_dc1": "Douglas DC-1",
+  "item.aviator_dream.douglas_dc1.description": "A Prototype airliner built by Douglas Aircraft it was continue its journey as DC-2 and DC-3, it was a reliable fast and able to carry a lot but it was a little bit unstable.",
+  "entity.aviator_dream.douglas_dc1": "Douglas DC-1",
+
+  "item.aviator_dream.douglas_dc2": "Douglas DC-2",
+  "item.aviator_dream.douglas_dc2.description": "an Production version of DC-1 it fitted with more seat and more powerful engines as well as some modification to make it more stable.",
+  "entity.aviator_dream.douglas_dc2": "Douglas DC-2",
+
+  "item.aviator_dream.douglas_c47": "Douglas C-47",
+  "item.aviator_dream.douglas_c47.description": "A military version of DC-3 focused on Cargo transport it was refitted with 14cylinders engine, this thing can carry more than its previous type.",
+  "entity.aviator_dream.douglas_c47": "Douglas C-47",
+  
+  "item.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
+  "item.aviator_dream.lockheed_l1049g.description": "An airliner designed for long hual and high speed.",
+  "entity.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
+  
+  "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  "item.aviator_dream.fokker_fviib3m.description": "An upgraded version of F.VIIA with 3 more engines added to it for more reliability.",
+  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  
+  "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  "item.aviator_dream.fokker_fviia.description": "A wooden airliner fitted with one 7cylinders engine it slow and underpowered but best option for starter airline owner backthen.",
+  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  
+  "item.aviator_dream.dehavilland_dh106": "DeHavilland DH.106 Comet 1",
+  "item.aviator_dream.dehavilland_dh106.description": "Worlds very first jet passenger airliner which got 4 centrifual flow jet engine.\nIt fly faster than other propeller driven aircrafts but also consume more fuel.\n + This one got reinforced fuselage so it will not repeat its history again.",
+  "entity.aviator_dream.dehavilland_dh106": "Comet 1",
+
+  "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
+  "item.aviator_dream.toyota_stout_k100.description": "A Light truck fitted with Inline 4 engine. cheap and reliable this thing work for you as long as you feed it enough fuel, make sure to not drive it too fast.",
+  "entity.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
+  
+  "item.aviator_dream.test.description": "A test entity used as base for ground vehicle."
+}

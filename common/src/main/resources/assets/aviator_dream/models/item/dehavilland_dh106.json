@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "aviator_dream:item/dehavilland_dh106_color",
+    "layer1": "aviator_dream:item/dehavilland_dh106"
+  }
+}

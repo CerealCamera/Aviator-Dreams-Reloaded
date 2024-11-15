@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "aviator_dream:item/fokker_fviia_color",
+    "layer1": "aviator_dream:item/fokker_fviia"
+  }
+}
