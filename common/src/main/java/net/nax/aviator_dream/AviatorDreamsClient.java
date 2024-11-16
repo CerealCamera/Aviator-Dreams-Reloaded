@@ -3,13 +3,11 @@ package net.nax.aviator_dream;
 import immersive_aircraft.ItemColors;
 import immersive_aircraft.cobalt.registration.Registration;
 import net.nax.aviator_dream.client.*;
-import net.nax.aviator_dream.client.testRenderer;
 
 import static immersive_aircraft.ItemColors.getDyeColor;
 
 public class AviatorDreamsClient {
     public static void init() {
-
         Registration.register(AviatorDreams.DOUGLAS_DC1_ENTITY.get(), DouglasDC1EntityRenderer::new);
         Registration.register(AviatorDreams.DOUGLAS_DC2_ENTITY.get(), DouglasDC2EntityRenderer::new);
         Registration.register(AviatorDreams.DOUGLAS_C47_ENTITY.get(), DouglasC47EntityRenderer::new);

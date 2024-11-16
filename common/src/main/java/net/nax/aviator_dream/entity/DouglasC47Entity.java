@@ -15,15 +15,15 @@ import org.joml.Vector4f;
 
 import java.util.List;
 
-public class DouglasC47Entity extends AirplaneEntity
-{
+public class DouglasC47Entity extends AirplaneEntity {
+
     public DouglasC47Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }
 
     private float reactionSpeed = 150.0f;
 
-    public byte durationHigh = 0,durationLow = 0;
+    public byte durationHigh = 0, durationLow = 0;
 
     @Override
     protected float getEngineReactionSpeed() {
@@ -79,9 +79,6 @@ public class DouglasC47Entity extends AirplaneEntity
                 level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R1830_IDLE.get(), getSoundSource(), 1, 1, false);
                 durationLow = 50;
             }
-        }
-
-        if (level().isClientSide) {
             if (durationHigh > 0) {
                 durationHigh--;
             }

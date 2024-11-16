@@ -13,14 +13,14 @@ import net.nax.aviator_dream.Sounds;
 
 import java.util.List;
 
-public class FVIIAEntity extends AirplaneEntity
-{
+public class FVIIAEntity extends AirplaneEntity {
+
     public FVIIAEntity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }
 
     public boolean shuttingDown = false;
-    public byte durationHigh = 0,durationLow = 0;
+    public byte durationHigh = 0, durationLow = 0;
 
     @Override
     protected SoundEvent getEngineSound() {
@@ -79,9 +79,6 @@ public class FVIIAEntity extends AirplaneEntity
                 level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.LYNX_IDLE.get(), getSoundSource(), 1, 1, false);
                 durationLow = 59;
             }
-        }
-
-        if (level().isClientSide) {
             if (durationHigh > 0) {
                 durationHigh--;
             }

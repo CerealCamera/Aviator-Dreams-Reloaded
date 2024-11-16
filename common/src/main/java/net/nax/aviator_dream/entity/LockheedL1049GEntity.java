@@ -3,27 +3,25 @@ package net.nax.aviator_dream.entity;
 import immersive_aircraft.entity.AircraftEntity;
 import immersive_aircraft.entity.AirplaneEntity;
 import immersive_aircraft.entity.misc.Trail;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.nax.aviator_dream.AviatorDreams;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.Level;
+import net.nax.aviator_dream.AviatorDreams;
 import net.nax.aviator_dream.Sounds;
-import org.joml.Matrix3f;
 import org.joml.Matrix4f;
 import org.joml.Vector4f;
 
 import java.util.List;
 
-public class LockheedL1049GEntity extends AirplaneEntity
-{
+public class LockheedL1049GEntity extends AirplaneEntity {
     public LockheedL1049GEntity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }
 
     public boolean shuttingDown = false;
-    public byte durationHigh = 0,durationLow = 0;
+    public byte durationHigh = 0, durationLow = 0;
 
     @Override
     protected SoundEvent getEngineSound() {
@@ -73,7 +71,7 @@ public class LockheedL1049GEntity extends AirplaneEntity
             reactionSpeed = 220.0f;
         }
 
-        if (getEngineTarget() == 0 && shuttingDown == true) {
+        if (getEngineTarget() == 0 && shuttingDown) {
             level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R3350_STOP.get(), getSoundSource(), 1.0f, 1.0f, false);
             shuttingDown = false;
         }
@@ -90,16 +88,13 @@ public class LockheedL1049GEntity extends AirplaneEntity
                 level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R3350_LOW.get(), getSoundSource(), 1, 1, false);
                 durationLow = 59;
             }
-        }
-
-        if (level().isClientSide) {
-                if (durationHigh > 0) {
-                    durationHigh--;
-                }
-                else if(durationHigh == 0 && getEngineTarget() > 0.25 && getEngineTarget() != 0 &&getFuelUtilization() != 0){
-                    level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R3350_PROP.get(), getSoundSource(), 1, 1, false);
-                    durationHigh = 100;
-                }
+            if (durationHigh > 0) {
+                durationHigh--;
+            }
+            else if(durationHigh == 0 && getEngineTarget() > 0.25 && getEngineTarget() != 0 &&getFuelUtilization() != 0){
+                level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R3350_PROP.get(), getSoundSource(), 1, 1, false);
+                durationHigh = 100;
+            }
         }
 
         engineSpinUpStrength = Math.max(0.0f, engineSpinUpStrength + enginePower.getDiff() - 0.1f);

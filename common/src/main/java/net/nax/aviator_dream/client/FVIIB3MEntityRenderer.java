@@ -3,10 +3,10 @@ package net.nax.aviator_dream.client;
 import immersive_aircraft.client.render.entity.renderer.AircraftEntityRenderer;
 import immersive_aircraft.client.render.entity.renderer.utils.ModelPartRenderHandler;
 import immersive_aircraft.entity.AircraftEntity;
-import net.nax.aviator_dream.AviatorDreams;
-import net.nax.aviator_dream.entity.FVIIB3MEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.nax.aviator_dream.AviatorDreams;
+import net.nax.aviator_dream.entity.FVIIB3MEntity;
 
 public class FVIIB3MEntityRenderer extends AircraftEntityRenderer<FVIIB3MEntity> {
     private static final ResourceLocation ID = AviatorDreams.locate("fokker_fviib3m");
