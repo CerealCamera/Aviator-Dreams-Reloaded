@@ -1,29 +1,26 @@
 package net.nax.aviator_dream.entity;
 
-import immersive_aircraft.config.configEntries.BooleanConfigEntry;
-import immersive_aircraft.config.configEntries.FloatConfigEntry;
-import immersive_aircraft.entity.Rotorcraft;
 import immersive_aircraft.entity.AircraftEntity;
-import net.minecraft.sounds.SoundEvents;
-import net.nax.aviator_dream.AviatorDreams;
+import immersive_aircraft.entity.Rotorcraft;
 import immersive_aircraft.item.upgrade.VehicleStat;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
+import net.nax.aviator_dream.AviatorDreams;
 import net.nax.aviator_dream.Sounds;
 import org.joml.Vector3f;
 
-import java.util.List;
-
 public class K100Entity extends Rotorcraft {
+
     public K100Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, false);
         setMaxUpStep(1.2f);
     }
 
-    public float x = 0.0f ,oldX = 0.0f, oldZ = 0.0f, z = 0.0f, speedd = 0.0f, speed = 0.0f, throttle = 0.0f;
-    public byte durationHigh = 0,durationLow = 0;
+    public float x = 0.0f, oldX = 0.0f, oldZ = 0.0f, z = 0.0f, speed = 0.0f, throttle = 0.0f;
+    public byte durationHigh = 0, durationLow = 0;
 
     @Override
     protected float getEngineReactionSpeed() {
@@ -75,20 +72,19 @@ public class K100Entity extends Rotorcraft {
             }
         }
 
-
         //speed = (float)(Math.sqrt(Math.pow(vec.x , 2) + Math.pow(vec.y, 2) + Math.pow(vec.z, 2)) * 20);
 
         this.x = (float) this.getX();
         this.z = (float) this.getZ();
-        this.speedd = (float)(Math.sqrt(Math.pow(x - oldX , 2) + Math.pow(z - oldZ, 2)) * 20);
-        if (this.speedd < 0) {
-            this.speedd = this.speedd * (-1.0f);
+        this.speed = (float)(Math.sqrt(Math.pow(x - oldX , 2) + Math.pow(z - oldZ, 2)) * 20);
+        if (this.speed < 0) {
+            this.speed = this.speed * (-1.0f);
         }
 
-        if (this.speedd != 0 && this.pressingInterpolatedZ.getSmooth() > 0) {
-            setYRot(getYRot() - (this.speedd * (0.48f - ((this.speedd / 3.6f) * 0.01f)) * this.pressingInterpolatedX.getSmooth()));
-        } else if (this.speedd != 0 && this.pressingInterpolatedZ.getSmooth() < 0) {
-            setYRot(getYRot() + (this.speedd * 0.8f) * this.pressingInterpolatedX.getSmooth());
+        if (this.speed != 0 && this.pressingInterpolatedZ.getSmooth() > 0) {
+            setYRot(getYRot() - (this.speed * (0.48f - ((this.speed / 3.6f) * 0.01f)) * this.pressingInterpolatedX.getSmooth()));
+        } else if (this.speed != 0 && this.pressingInterpolatedZ.getSmooth() < 0) {
+            setYRot(getYRot() + (this.speed * 0.8f) * this.pressingInterpolatedX.getSmooth());
         }
 
         this.oldX = this.x;
@@ -100,16 +96,11 @@ public class K100Entity extends Rotorcraft {
         // get pointing direction
         Vector3f direction = getForwardDirection();
 
-
-
-
         // accelerate
         float thrust = (float) (Math.pow(getEnginePower(), 5.0) * getProperties().get(VehicleStat.ENGINE_SPEED)) * pressingInterpolatedZ.getSmooth();
         Vector3f f = direction.mul(thrust);
         setDeltaMovement(getDeltaMovement().add(f.x, f.y, f.z));
     }
-
-
 
     @Override
     public void tick() {
@@ -123,9 +114,6 @@ public class K100Entity extends Rotorcraft {
                 level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R_IDLE.get(), getSoundSource(), 0.5f, 0.8f, false);
                 durationLow = 28;
             }
-        }
-
-        if (level().isClientSide) {
             if (durationHigh > 0) {
                 durationHigh--;
             }
@@ -134,10 +122,7 @@ public class K100Entity extends Rotorcraft {
                 durationHigh = (byte)(10 / getEngineTarget());
             }
         }
-
     }
-
-
 
     @Override
     public double getZoom() {

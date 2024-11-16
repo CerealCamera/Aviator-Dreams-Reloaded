@@ -3,10 +3,10 @@ package net.nax.aviator_dream.client;
 import immersive_aircraft.client.render.entity.renderer.AircraftEntityRenderer;
 import immersive_aircraft.client.render.entity.renderer.utils.ModelPartRenderHandler;
 import immersive_aircraft.entity.AircraftEntity;
-import net.nax.aviator_dream.AviatorDreams;
-import net.nax.aviator_dream.entity.DouglasDC1Entity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.nax.aviator_dream.AviatorDreams;
+import net.nax.aviator_dream.entity.DouglasDC1Entity;
 
 public class DouglasDC1EntityRenderer extends AircraftEntityRenderer<DouglasDC1Entity> {
     private static final ResourceLocation ID = AviatorDreams.locate("douglas_dc1");

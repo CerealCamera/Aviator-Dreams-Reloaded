@@ -3,28 +3,24 @@ package net.nax.aviator_dream.entity;
 import immersive_aircraft.entity.AircraftEntity;
 import immersive_aircraft.entity.AirplaneEntity;
 import immersive_aircraft.entity.misc.Trail;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.nax.aviator_dream.AviatorDreams;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.Level;
+import net.nax.aviator_dream.AviatorDreams;
 import net.nax.aviator_dream.Sounds;
 
 import java.util.List;
 
-public class DehavillandDH106Entity extends AirplaneEntity
-{
+public class DehavillandDH106Entity extends AirplaneEntity {
+
     public DehavillandDH106Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
-
-
     }
 
     public boolean shuttingDown = false;
-    public byte durationHigh = 0,durationLow = 0;
-
-
+    public byte durationHigh = 0, durationLow = 0;
 
     @Override
     protected SoundEvent getEngineSound() {
@@ -49,7 +45,6 @@ public class DehavillandDH106Entity extends AirplaneEntity
     }
 
     private final List<Trail> trails = List.of(new Trail(30), new Trail(30));
-
 
     @Override
     public void tick() {
@@ -79,9 +74,6 @@ public class DehavillandDH106Entity extends AirplaneEntity
                 level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.GHOST_IDLE.get(), getSoundSource(), 1, 1, false);
                 durationLow = 20;
             }
-        }
-
-        if (level().isClientSide) {
             if (durationHigh > 0) {
                 durationHigh--;
             }

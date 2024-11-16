@@ -3,13 +3,14 @@ package net.nax.aviator_dream;
 import immersive_aircraft.Items;
 import immersive_aircraft.cobalt.registration.Registration;
 import immersive_aircraft.item.DyeableAircraftItem;
-import net.nax.aviator_dream.entity.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.item.Item;
+import net.nax.aviator_dream.entity.*;
+
 import java.util.function.Supplier;
 
 import static immersive_aircraft.Items.baseProps;
@@ -31,21 +32,19 @@ public class AviatorDreams {
     public static Supplier<EntityType<DouglasDC2Entity>> DOUGLAS_DC2_ENTITY;
     public static Supplier<EntityType<DouglasC47Entity>> DOUGLAS_C47_ENTITY;
     public static Supplier<EntityType<LockheedL1049GEntity>> LOCKHEED_L1049G_ENTITY;
-    public static Supplier<EntityType<test>> TEST_ENTITY;
+    public static Supplier<EntityType<Test>> TEST_ENTITY;
     public static Supplier<EntityType<DehavillandDH106Entity>> DEHAVILLANDDH106_ENTITY;
     public static Supplier<EntityType<FVIIB3MEntity>> FVIIB3M_ENTITY;
     public static Supplier<EntityType<FVIIAEntity>> FVIIA_ENTITY;
     public static Supplier<EntityType<K100Entity>> K100_ENTITY;
 
     public static void init() {
-
-        Sounds.init();
         // Register items
         DOUGLAS_DC1_ITEM = register("douglas_dc1", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DouglasDC1Entity(DOUGLAS_DC1_ENTITY.get(), world)));
         DOUGLAS_DC2_ITEM = register("douglas_dc2", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DouglasDC2Entity(DOUGLAS_DC2_ENTITY.get(), world)));
         DOUGLAS_C47_ITEM = register("douglas_c47", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DouglasC47Entity(DOUGLAS_C47_ENTITY.get(), world)));
         LOCKHEED_L1049G_ITEM = register("lockheed_l1049g", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new LockheedL1049GEntity(LOCKHEED_L1049G_ENTITY.get(), world)));
-        TEST_ITEM = register("test", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new test(TEST_ENTITY.get(), world)));
+        TEST_ITEM = register("test", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new Test(TEST_ENTITY.get(), world)));
         DEHAVILLANDDH106_ITEM = register("dehavilland_dh106", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DehavillandDH106Entity(DEHAVILLANDDH106_ENTITY.get(), world)));
         FVIIB3M_ITEM = register("fokker_fviib3m", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new FVIIB3MEntity(FVIIB3M_ENTITY.get(), world)));
         FVIIA_ITEM = register("fokker_fviia", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new FVIIAEntity(FVIIA_ENTITY.get(), world)));
@@ -77,7 +76,7 @@ public class AviatorDreams {
                 .fireImmune()
         );
         TEST_ENTITY = register("test", EntityType.Builder
-                .of(test::new, MobCategory.MISC)
+                .of(Test::new, MobCategory.MISC)
                 .sized(5f, 3.0f)
                 .clientTrackingRange(20)
                 .fireImmune()

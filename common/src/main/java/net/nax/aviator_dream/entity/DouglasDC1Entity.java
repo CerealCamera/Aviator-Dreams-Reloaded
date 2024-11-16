@@ -3,28 +3,27 @@ package net.nax.aviator_dream.entity;
 import immersive_aircraft.entity.AircraftEntity;
 import immersive_aircraft.entity.AirplaneEntity;
 import immersive_aircraft.entity.misc.Trail;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.nax.aviator_dream.AviatorDreams;
-import net.nax.aviator_dream.Sounds;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.Level;
-import org.joml.Matrix3f;
+import net.nax.aviator_dream.AviatorDreams;
+import net.nax.aviator_dream.Sounds;
 import org.joml.Matrix4f;
 import org.joml.Vector4f;
 
 import java.util.List;
 
-public class DouglasDC1Entity extends AirplaneEntity
-{
+public class DouglasDC1Entity extends AirplaneEntity {
+
     public DouglasDC1Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }
 
     private float reactionSpeed = 160.0f;
 
-    public byte durationHigh = 0,durationLow = 0;
+    public byte durationHigh = 0, durationLow = 0;
 
     @Override
     protected float getEngineReactionSpeed() {
@@ -80,9 +79,6 @@ public class DouglasDC1Entity extends AirplaneEntity
                 level().playLocalSound(getX(), getY() + getBbHeight() * 0.5, getZ(), Sounds.R1820_IDLE.get(), getSoundSource(), 1, 1, false);
                 durationLow = 67;
             }
-        }
-
-        if (level().isClientSide) {
             if (durationHigh > 0) {
                 durationHigh--;
             }

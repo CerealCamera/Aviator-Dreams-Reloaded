@@ -56,10 +56,6 @@ public class Sounds {
         LYNX_HIGH = register("lynx_high");
     }
 
-    static void bootstrap() {
-        // nop
-    }
-
     static Supplier<SoundEvent> register(String name) {
         ResourceLocation id = AviatorDreams.locate(name);
         return Registration.register(BuiltInRegistries.SOUND_EVENT, id, () -> SoundEvent.createVariableRangeEvent(id));
