@@ -1,4 +1,4 @@
-# Aviator Dreams
+# Aviator Dreams Reloaded
 
 * A fork of [Aviator Dreams](https://github.com/Naxgeneral/Aviator-Dream)
 * Fixes and improvements to some aircraft by CerealCamera
