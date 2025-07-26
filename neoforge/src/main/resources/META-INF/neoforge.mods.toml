@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/CerealCamera/Aviator-Dreams/issues"
+license = "GPL-3.0-only"
+
+[[mods]]
+modId = "aviator_dream"
+version = "${version}"
+displayName = "Aviator Dreams"
+displayURL = ""
+authors = "CerealCamera"
+description = "Addon for Immersive Aircraft aimed at adding realistic aircraft."
+logoFile = "icon.png"
+itemIcon = "aviator_dream:dehavilland_dh106"
+
+[[dependencies.aviator_dream]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[@MINECRAFT_VERSION@,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aviator_dream]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.aviator_dream]]
+modId = "immersive_aircraft"
+mandatory = true
+versionRange = "[1.2.2,)"
+ordering = "NONE"
+side = "BOTH"
