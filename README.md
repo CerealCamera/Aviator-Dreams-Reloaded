@@ -1,5 +1,6 @@
 # Aviator Dreams
 
+* Fixes and improvements to some aircraft by CerealCamera
 * Model and Textures by Nax
 * Code by Luke100000
 
