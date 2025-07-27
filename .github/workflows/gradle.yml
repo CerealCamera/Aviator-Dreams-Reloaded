@@ -23,9 +23,6 @@ jobs:
         java-version: 21
         java-package: jdk
 
-    - name: Install required dependencies
-      run: sudo apt update && sudo apt install libtinfo5
-
     - name: Grant execute permission to gradlew
       run: chmod +x ./gradlew
     
@@ -39,9 +36,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gradle4-
         
-    - name: Build
+    - name: Build Aviator Dreams Reloaded
       run: |
-        ./gradlew clean build --stacktrace
+        ./gradlew build
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
