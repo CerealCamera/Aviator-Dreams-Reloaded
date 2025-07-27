@@ -40,9 +40,15 @@ jobs:
       run: |
         ./gradlew build
 
-    - name: Upload Artifact
+    - name: Upload Fabric Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: aviator-dreams-reloaded-artifact
-        path: 'build/libs/*.jar'
+        name: aviator-dreams-reloaded-fabric-artifact
+        path: 'fabric/build/libs/*.jar'
+
+    - name: Upload Neoforge Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: aviator-dreams-reloaded-neoforge-artifact
+        path: 'neoforge/build/libs/*.jar'
       
