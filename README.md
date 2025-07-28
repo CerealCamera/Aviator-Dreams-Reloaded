@@ -1,5 +1,5 @@
 # What is Aviator Dreams (Reloaded)?
-Well, it is a fork of [Aviator Dreams (by Nax)](https://modrinth.com/mod/aviator-dreams) which adds improvements and fixes to the original mod and is made for newer versions.
+Well, it is a fork of [Aviator Dreams (by Nax)](https://github.com/Naxgeneral/Aviator-Dream) which adds improvements and fixes to the original mod and is made for newer versions.
 
 The original mod, Aviator Dreams is an addon for Immersive Aircraft which adds real life planes (and vehicles).
 
@@ -40,10 +40,10 @@ Aircraft included (so far) :
 
 # Credits
 * CerealCamera (Ported to Immersive Aircraft 1.3.0 and NeoForge, fixes and improvements).
-* [Nax](https://modrinth.com/user/Nasuka_Sensei) (Models and Textures). 
+* [Nax](https://github.com/Naxgeneral) (Models and Textures). 
 * Hashim (Fokker F7 Texture). 
 * Conczin (Helped Nax set up the orginal project troubleshoot it). 
-* [Luke100000](https://modrinth.com/user/Luke100000) (Provided useful template for add-on creation)
+* [Luke100000](https://github.com/Luke100000) (Provided useful template for add-on creation)
 
 
 # Licence
