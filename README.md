@@ -1,9 +1,50 @@
-# Aviator Dreams Reloaded
+# What is Aviator Dreams (Reloaded)?
+Well, it is a fork of [Aviator Dreams (by Nax)](https://modrinth.com/mod/aviator-dreams) which adds improvements and fixes to the original mod and is made for newer versions.
 
-* A fork of [Aviator Dreams](https://github.com/Naxgeneral/Aviator-Dream)
-* Fixes and improvements to some aircraft by CerealCamera
-* Model and Textures by Nax
-* Code by Luke100000
+The original mod, Aviator Dreams is an addon for Immersive Aircraft which adds real life planes (and vehicles).
+
+
+# Improvements
+* Improved statistics for the Dehavilland DH-106 Comet 1
+* Improved Fabric support
+  
+...and more to come
+
+
+# Fixes
+* The game no longer crashes when the Toyota Stout K100 is placed
+* The game no longer crashes when the Test Entity is placed
+* Fixed crash with Immersive Aircraft 1.3.0+
+
+
+# Changes
+* Removed unused trail code
+* Supports NeoForge instead of Forge
+
+
+# Theme
+Aviator Dreams (Reloaded) is aimed at improving and fixing Aviator Dreams.
+
+Aviator Dreams is aimed at adding real life planes to the game.
+
+Aircraft included (so far) : 
+* Dehavilland DH-106 Comet 1
+* Douglas DC-1 
+* Douglas DC-2 
+* Douglas C-47 
+* Fokker F.VIIA 
+* Fokker F.VIIB-3M 
+* Lockheed L-1049G Super Constellation 
+* Toyota Stout K100
+
+
+# Credits
+* CerealCamera (Ported to Immersive Aircraft 1.3.0 and NeoForge, fixes and improvements).
+* [Nax](https://modrinth.com/user/Nasuka_Sensei) (Models and Textures). 
+* Hashim (Fokker F7 Texture). 
+* Conczin (Helped Nax set up the orginal project troubleshoot it). 
+* [Luke100000](https://modrinth.com/user/Luke100000) (Provided useful template for add-on creation)
+
 
 # Licence
 
