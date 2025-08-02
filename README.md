@@ -17,11 +17,6 @@ The original mod, Aviator Dreams is an addon for Immersive Aircraft which adds r
 * Fixed crash with Immersive Aircraft 1.3.0+
 
 
-# Changes
-* Removed unused trail code
-* Supports NeoForge instead of Forge
-
-
 # Theme
 Aviator Dreams (Reloaded) is aimed at improving and fixing Aviator Dreams.
 
