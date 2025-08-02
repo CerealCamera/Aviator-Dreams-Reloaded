@@ -1,15 +1,15 @@
 modLoader = "javafml"
-loaderVersion = "[1,)"
-issueTrackerURL = "https://github.com/CerealCamera/Aviator-Dreams-Reloaded/issues"
+loaderVersion = "[@LOADER_MAJOR@,)"
+issueTrackerURL = "https://github.com/CerealCamera/Aviator-Dreams-Reloaded"
 license = "GPL-3.0-only"
 
 [[mods]]
 modId = "aviator_dream"
 version = "${version}"
-displayName = "Aviator Dreams"
-displayURL = ""
+displayName = "Aviator Dreams Reloaded"
+displayURL = "https://modrinth.com/mod/aviator-dreams-reloaded"
 authors = "CerealCamera"
-description = "An Add-On aimed at adding real life airliners to the game."
+description = "A set of additional aircraft with Create support in mind."
 logoFile = "icon.png"
 itemIcon = "aviator_dream:douglas_dc1"
 
@@ -21,15 +21,15 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.aviator_dream]]
-modId = "neoforge"
+modId = "forge"
 mandatory = true
-versionRange = "[1,)"
+versionRange = "[@LOADER_MAJOR@,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.aviator_dream]]
 modId = "immersive_aircraft"
 mandatory = true
-versionRange = "[1.2.2,)"
+versionRange = "[1.1.0,)"
 ordering = "NONE"
 side = "BOTH"

@@ -24,12 +24,9 @@
       "net.cerealcamera.aviator_dream.fabric.AviatorDreamsFabricClient"
     ]
   },
-  "mixins": [
-    "aviator_dream.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.15.7",
-    "minecraft": ">=1.21.1",
+    "minecraft": "1.20.1",
     "immersive_aircraft": ">=1.2.2"
   }
 }

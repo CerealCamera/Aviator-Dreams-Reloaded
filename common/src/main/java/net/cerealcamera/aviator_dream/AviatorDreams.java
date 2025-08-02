@@ -119,6 +119,6 @@ public class AviatorDreams {
     }
 
     public static ResourceLocation locate(String name) {
-        return ResourceLocation.fromNamespaceAndPath(AviatorDreams.MOD_ID, name);
+        return new ResourceLocation(AviatorDreams.MOD_ID, name);
     }
 }

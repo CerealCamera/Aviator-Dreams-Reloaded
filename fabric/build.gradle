@@ -17,10 +17,33 @@ configurations {
 
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
-    modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}+${rootProject.minecraft_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+
+    implementation 'org.mariuszgromada.math:MathParser.org-mXparser:5.2.1'
+    include 'org.mariuszgromada.math:MathParser.org-mXparser:5.2.1'
+
+    modCompileOnly("com.terraformersmc:modmenu:${rootProject.mod_menu_version}") { transitive false }
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+
+    modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-fabric-api:${jei_version}")
+
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:$rei_version"
+    modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:$rei_version"
+
+    // Required to run JEI
+    modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
+
+    // Required to run REI
+    //modRuntimeOnly "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
+    //modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:$rei_version"
+
+    modCompileOnly "earth.terrarium.adastra:ad_astra-fabric-$minecraft_version:${ad_astra_version}"
+    // modRuntimeOnly "earth.terrarium.adastra:ad_astra-fabric-$minecraft_version:${ad_astra_version}"
+
+    // modRuntimeOnly "net.conczin:man_of_many_planes:${man_of_many_planes_version}+fabric"
+    // modRuntimeOnly "net.conczin:immersive_machinery:${immersive_machinery}+fabric"
 
     modImplementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+fabric")
 }
@@ -34,18 +57,16 @@ processResources {
 }
 
 shadowJar {
+    exclude "architectury.common.json"
+
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier.set("dev-shadow")
+    archiveClassifier = "dev-shadow"
 }
 
 remapJar {
-    inputFile.set shadowJar.archiveFile
+    injectAccessWidener = true
+    input.set shadowJar.archiveFile
     dependsOn shadowJar
-    archiveClassifier.set(null)
-}
-
-jar {
-    archiveClassifier.set("dev")
 }
 
 sourcesJar {
@@ -57,16 +78,5 @@ sourcesJar {
 components.java {
     withVariantsFromConfiguration(project.configurations.shadowRuntimeElements) {
         skip()
-    }
-}
-
-publishing {
-    publications {
-        mavenCommon(MavenPublication) {
-            artifactId = rootProject.archives_base_name
-            groupId = rootProject.group_id
-            version = version + "+fabric"
-            from components.java
-        }
     }
 }
