@@ -1,3 +1,5 @@
+This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded)
+
 # What is Aviator Dreams (Reloaded)?
 Well, it is a fork of [Aviator Dreams (by Nax)](https://github.com/Naxgeneral/Aviator-Dream) which adds improvements and fixes to the original mod and is made for newer versions.
 
@@ -15,11 +17,6 @@ The original mod, Aviator Dreams is an addon for Immersive Aircraft which adds r
 * The game no longer crashes when the Toyota Stout K100 is placed
 * The game no longer crashes when the Test Entity is placed
 * Fixed crash with Immersive Aircraft 1.3.0+
-
-
-# Changes
-* Removed unused trail code
-* Supports NeoForge instead of Forge
 
 
 # Theme
