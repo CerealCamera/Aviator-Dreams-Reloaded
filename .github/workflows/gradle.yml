@@ -46,9 +46,9 @@ jobs:
         name: aviator-dreams-reloaded-fabric-artifact
         path: 'fabric/build/libs/*.jar'
 
-    - name: Upload Neoforge Artifact
+    - name: Upload Forge Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: aviator-dreams-reloaded-neoforge-artifact
+        name: aviator-dreams-reloaded-forge-artifact
         path: 'forge/build/libs/*.jar'
       
