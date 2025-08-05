@@ -1,7 +1,10 @@
 package net.cerealcamera.aviator_dream;
 
+import immersive_aircraft.ItemColors;
 import immersive_aircraft.cobalt.registration.Registration;
 import net.cerealcamera.aviator_dream.client.*;
+
+import static immersive_aircraft.ItemColors.getDyeColor;
 
 public class AviatorDreamsClient {
     public static void registerEntityRenderer() {
@@ -14,5 +17,16 @@ public class AviatorDreamsClient {
         Registration.register(AviatorDreams.FVIIB3M_ENTITY.get(), FVIIB3MEntityRenderer::new);
         Registration.register(AviatorDreams.FVIIA_ENTITY.get(), FVIIAEntityRenderer::new);
         Registration.register(AviatorDreams.K100_ENTITY.get(), K100EntityRenderer::new);
+    }
+    static {
+        ItemColors.ITEM_COLORS.put(AviatorDreams.DOUGLAS_DC1_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.DOUGLAS_DC2_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.DOUGLAS_C47_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.LOCKHEED_L1049G_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.TEST_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.DEHAVILLANDDH106_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.FVIIB3M_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.FVIIA_ITEM.get(), getDyeColor(0xEF2323));
+        ItemColors.ITEM_COLORS.put(AviatorDreams.K100_ITEM.get(), getDyeColor(0xEF2323));
     }
 }

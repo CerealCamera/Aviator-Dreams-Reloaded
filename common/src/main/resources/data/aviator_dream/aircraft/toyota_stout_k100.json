@@ -2,9 +2,9 @@
   "properties": {
     "stabilizer": 0.0,
     "yawSpeed": 0.0,
-    "engineSpeed": 0.15,
+    "engineSpeed": 0.35,
     "verticalSpeed": 0.0,
-    "glideFactor": 0.01,
+    "glideFactor": 0.0,
     "driftDrag": 0.0,
     "lift": 0.0,
     "rollFactor": 2.0,
@@ -31,6 +31,6 @@
     ]
   ],
   "boundingBoxes": [
-    {"width": 1.8, "height": 1.5, "x": 0.0, "y": 1.8, "z": 0.0}
+    {"width": 1.1, "height": 1.8, "x": 0.0, "y": 1.8, "z": 0.0}
   ]
 }

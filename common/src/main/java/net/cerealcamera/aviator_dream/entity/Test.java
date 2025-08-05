@@ -10,25 +10,27 @@ import net.cerealcamera.aviator_dream.AviatorDreams;
 import org.joml.Vector3f;
 
 public class Test extends Rotorcraft {
+
     public float x = 0.0f, oldX = 0.0f, oldZ = 0.0f, z = 0.0f, speed = 0.0f, throttle = 0.0f;
 
     public Test(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, false);
-    }
-
-    @Override
-    public float maxUpStep() {
-        return 1.2f;
+        setMaxUpStep(1.2f);
     }
 
     @Override
     protected float getEngineReactionSpeed() {
-        return 50.0f;
+        return 25.0f;
     }
 
     @Override
     public Item asItem() {
         return AviatorDreams.TEST_ITEM.get();
+    }
+
+    @Override
+    protected float getGravity() {
+        return wasTouchingWater ? 0.5f : (0.2f * super.getGravity());
     }
 
     @Override
@@ -54,10 +56,8 @@ public class Test extends Rotorcraft {
                     setEngineTarget(throttle * 1.4f + 0.2f);
                 }
             }
-            if (getEngineTarget() > 1) {
-                setEngineTarget(1f);
-            }
         }
+
         //speed = (float)(Math.sqrt(Math.pow(vec.x , 2) + Math.pow(vec.y, 2) + Math.pow(vec.z, 2)) * 20);
 
         this.x = (float) this.getX();

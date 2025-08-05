@@ -3,13 +3,13 @@ package net.cerealcamera.aviator_dream;
 import immersive_aircraft.Items;
 import immersive_aircraft.cobalt.registration.Registration;
 import immersive_aircraft.item.DyeableAircraftItem;
-import net.cerealcamera.aviator_dream.entity.*;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.item.Item;
+import net.cerealcamera.aviator_dream.entity.*;
 
 import java.util.function.Supplier;
 
