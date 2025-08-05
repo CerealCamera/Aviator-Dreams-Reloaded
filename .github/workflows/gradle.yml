@@ -50,5 +50,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: aviator-dreams-reloaded-neoforge-artifact
-        path: 'neoforge/build/libs/*.jar'
+        path: 'forge/build/libs/*.jar'
       
