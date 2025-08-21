@@ -45,7 +45,7 @@ public class LockheedL1049GEntity extends AirplaneEntity {
         super.tick();
 
         if(getEngineTarget() == 0){
-            reactionSpeed = 5.0f;
+            reactionSpeed = 250.0f;
         }
         else {
             reactionSpeed = 220.0f;

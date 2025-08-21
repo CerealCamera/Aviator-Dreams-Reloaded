@@ -29,7 +29,7 @@ public class DehavillandDH106Entity extends AirplaneEntity {
         return Sounds.GHOST_START.get();
     }
 
-    private float reactionSpeed = 450.0f;
+    private float reactionSpeed = 200.0f;
 
     @Override
     protected float getEngineReactionSpeed() {

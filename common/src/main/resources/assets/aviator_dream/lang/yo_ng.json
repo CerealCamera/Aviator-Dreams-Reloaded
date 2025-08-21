@@ -30,6 +30,8 @@
   "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
   "item.aviator_dream.toyota_stout_k100.description": "A light truck fitted with a four-cylinder inline engine. Cheap and reliable, this thing will work for you as long as you feed it enough fuel. Just make sure to not drive it too fast.",
   "entity.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
-  
-  "item.aviator_dream.test.description": "A test entity used as a base for ground vehicles."
+
+  "item.aviator_dream.test": "Test Entity",
+  "item.aviator_dream.test.description": "A test entity used as a base for ground vehicles.",
+  "entity.aviator_dream.test": "Test Entity"
 }

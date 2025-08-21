@@ -45,7 +45,7 @@ public class FVIIB3MEntity extends AirplaneEntity {
         super.tick();
 
         if(getEngineTarget() == 0){
-            reactionSpeed = 5.0f;
+            reactionSpeed = 180.0f;
         }
         else {
             reactionSpeed = 180.0f;

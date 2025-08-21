@@ -44,7 +44,7 @@ public class DouglasDC1Entity extends AirplaneEntity {
         super.tick();
 
         if(getEngineTarget() == 0){
-            reactionSpeed = 5.0f;
+            reactionSpeed = 200.0f;
         }
         else {
             reactionSpeed = 160.0f;
