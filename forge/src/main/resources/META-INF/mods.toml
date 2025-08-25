@@ -9,8 +9,8 @@ version = "${version}"
 displayName = "Aviator Dreams Reloaded"
 displayURL = "https://modrinth.com/mod/aviator-dreams-reloaded"
 authors = "CerealCamera"
-description = "A set of additional aircraft with Create support in mind."
-logoFile = "/icon.png"
+description = "Realistic aircraft for Immersive Aircraft"
+logoFile = "icon.png"
 itemIcon = "aviator_dream:douglas_dc1"
 
 [[dependencies.aviator_dream]]

@@ -22,7 +22,7 @@ dependencies {
     implementation 'org.mariuszgromada.math:MathParser.org-mXparser:5.2.1'
     include 'org.mariuszgromada.math:MathParser.org-mXparser:5.2.1'
 
-    modCompileOnly("com.terraformersmc:modmenu:${rootProject.mod_menu_version}") { transitive false }
+    modImplementation("com.terraformersmc:modmenu:${rootProject.mod_menu_version}")
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
