@@ -27,7 +27,7 @@
   "mixins": [
     "aviator_dream.mixins.json"
   ],
-  "accessWidener": "aviator_dream.accesswidener",
+  "accessWidener": "aviator_dream.accessWidener",
   "depends": {
     "fabricloader": ">=0.15.7",
     "minecraft": ">=1.21.1",

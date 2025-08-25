@@ -20,6 +20,7 @@ subprojects {
         mappings loom.officialMojangMappings()
         // The following line declares the yarn mappings you may select this one as well.
         // mappings "net.fabricmc:yarn:@YARN_MAPPINGS@:v2"
+        modImplementation include("maven.modrinth:ModMenu:11.0.3")
     }
 }
 
@@ -51,6 +52,17 @@ allprojects {
     group = rootProject.group_id
 
     repositories {
+        exclusiveContent {
+            forRepository {
+                maven {
+                    name = "Modrinth"
+                    url = "https://api.modrinth.com/maven"
+                }
+            }
+            filter {
+                includeGroup "maven.modrinth"
+            }
+        }
         maven { url "https://maven.conczin.net/Artifacts" }
         maven { url "https://maven.parchmentmc.org" }
         maven { url "https://maven.terraformersmc.com/releases/" }
