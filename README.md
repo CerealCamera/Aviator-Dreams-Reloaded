@@ -1,4 +1,4 @@
-This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded)
+This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded) and [CurseForge](https://www.curseforge.com/minecraft/mc-mods/aviator-dreams-reloaded)
 
 # What is Aviator Dreams (Reloaded)?
 Well, it is a fork of [Aviator Dreams (by Nax)](https://github.com/Naxgeneral/Aviator-Dream) which adds improvements and fixes to the original mod and is made for newer versions.
