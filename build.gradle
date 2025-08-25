@@ -32,7 +32,7 @@ def getAppVersion = { ->
         }
         def tag = stdout.toString().trim()
         if (tag.isEmpty()) {
-            return rootProject.minecraft_version + "-${mod_version}"
+            return "-${mod_version}" + rootProject.minecraft_version
         }
         return tag
     } catch (Exception e) {
