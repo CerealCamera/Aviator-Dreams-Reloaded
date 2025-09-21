@@ -15,7 +15,6 @@ public class DehavillandDH106Entity extends AirplaneEntity {
     public DehavillandDH106Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }
-
     public boolean shuttingDown = false;
     public byte durationHigh = 0, durationLow = 0;
 

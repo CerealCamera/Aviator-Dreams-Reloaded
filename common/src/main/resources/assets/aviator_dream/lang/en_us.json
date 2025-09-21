@@ -24,7 +24,7 @@
   "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
   
   "item.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
-  "item.aviator_dream.dehavilland_dh106.description": "The world's very first jet passenger airliner. Fitted with four centrifugal-flow jet engines, it flew fly faster than other propeller driven aircraft but also consumed more fuel.\n + This one got fuselage reinforcements so it won't repeat its history again.",
+  "item.aviator_dream.dehavilland_dh106.description": "The world's very first jet passenger airliner. Fitted with four centrifugal-flow jet engines, it flies faster than propeller driven aircraft, but also consumes more fuel. This one also has fuselage reinforcements so it won't repeat it's history again.",
   "entity.aviator_dream.dehavilland_dh106": "Comet 1",
 
   "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
