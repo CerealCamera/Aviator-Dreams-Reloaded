@@ -17,14 +17,14 @@ itemIcon = "aviator_dream:douglas_dc1"
 modId = "minecraft"
 mandatory = true
 versionRange = "[@MINECRAFT_VERSION@,)"
-ordering = "NONE"
+ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.aviator_dream]]
 modId = "neoforge"
 mandatory = true
-versionRange = "[1,)"
-ordering = "NONE"
+versionRange = "[21.1.194,)"
+ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.aviator_dream]]

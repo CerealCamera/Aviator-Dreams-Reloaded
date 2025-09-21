@@ -23,7 +23,7 @@ side = "BOTH"
 [[dependencies.aviator_dream]]
 modId = "neoforge"
 mandatory = true
-versionRange = "[21.1.200,)"
+versionRange = "[21.1.194,)"
 ordering = "AFTER"
 side = "BOTH"
 
