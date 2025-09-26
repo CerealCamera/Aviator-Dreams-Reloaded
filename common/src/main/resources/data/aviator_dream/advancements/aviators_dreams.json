@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "aviator_dream:dehavilland_dh106"
+    },
+    "title": {
+      "translate": "advancements.aviator_dreams.aviators_dreams"
+    },
+    "description": {
+      "translate": "advancements.aviator_dreams.aviators_dreams.desc"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "aviators_dreams": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aviator_dream:dehavilland_dh106"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aviators_dreams"
+    ]
+  ],
+  "rewards": {
+    "loot": [],
+    "experience": 50
+  }
+}
