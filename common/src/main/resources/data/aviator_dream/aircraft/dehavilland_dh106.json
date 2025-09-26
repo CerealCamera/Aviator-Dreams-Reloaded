@@ -15,11 +15,11 @@
     "mass": 8.00
   },
   "inventorySlots": [
-    {"type": "boiler", "x": 12, "y": 37},
-    {"type": "upgrade", "x": 84, "y": 32},
-    {"type": "upgrade", "x": 106, "y": 32},
-    {"type": "upgrade", "x": 128, "y": 32},
-    {"type": "upgrade", "x": 150, "y": 32},
+    {"type": "boiler", "x": 12, "y": 26},
+    {"type": "upgrade", "x": 84, "y": 21},
+    {"type": "upgrade", "x": 106, "y": 21},
+    {"type": "upgrade", "x": 128, "y": 21},
+    {"type": "upgrade", "x": 150, "y": 21},
     {"type": "inventory", "x": 8, "y": 68, "cols": 7, "rows": 4},
 	{"type": "inventory", "x": -80, "y": 18, "cols": 4, "rows": 4, "boxed": true},
     {"type": "inventory", "x": 186, "y": 18, "cols": 4, "rows": 4, "boxed": true}

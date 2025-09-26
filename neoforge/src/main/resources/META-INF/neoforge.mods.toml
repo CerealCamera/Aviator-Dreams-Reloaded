@@ -15,21 +15,21 @@ itemIcon = "aviator_dream:douglas_dc1"
 
 [[dependencies.aviator_dream]]
 modId = "minecraft"
-mandatory = true
+type = "required"
 versionRange = "[@MINECRAFT_VERSION@,)"
 ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.aviator_dream]]
 modId = "neoforge"
-mandatory = true
+type = "required"
 versionRange = "[21.1.194,)"
 ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.aviator_dream]]
 modId = "immersive_aircraft"
-mandatory = true
+type = "required"
 versionRange = "[1.2.2,)"
 ordering = "AFTER"
 side = "BOTH"

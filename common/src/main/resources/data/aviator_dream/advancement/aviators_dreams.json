@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "aviator_dream:dehavilland_dh106"
+    },
+    "title": {
+      "translate": "advancements.aviator_dreams.aviators_dreams"
+    },
+    "description": "Obtained the Comet 1",
+    "frame": "goal"
+  },
+  "criteria": {
+    "aviators_dreams": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aviator_dream:dehavilland_dh106"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aviators_dreams"
+    ]
+  ],
+  "rewards": {
+    "loot": [],
+    "experience": 50
+  }
+}

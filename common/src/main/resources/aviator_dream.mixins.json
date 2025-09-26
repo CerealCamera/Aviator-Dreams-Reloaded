@@ -1,11 +1,11 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "net.cerealcamera.aviator_dream.mixin.neoforge",
+  "package": "net.cerealcamera.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-  ],
+  "minVersion": "0.8",
   "client": [
+  ],
+  "mixins": [
   ],
   "injectors": {
     "defaultRequire": 1
