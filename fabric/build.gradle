@@ -30,7 +30,7 @@ dependencies {
     modImplementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+fabric")
 }
 
-version = "fabric-" + version
+archivesBaseName = archivesBaseName + "-fabric"
 
 processResources {
     inputs.property "version", project.version
