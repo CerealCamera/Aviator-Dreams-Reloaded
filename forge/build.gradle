@@ -40,7 +40,7 @@ dependencies {
     modImplementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+forge")
 }
 
-version = "forge-" + version
+archivesBaseName = archivesBaseName + "-forge"
 
 processResources {
     inputs.property "version", project.version
