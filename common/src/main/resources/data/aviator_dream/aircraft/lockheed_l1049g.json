@@ -20,9 +20,7 @@
     {"type": "upgrade", "x": 106, "y": 32},
     {"type": "upgrade", "x": 128, "y": 32},
     {"type": "upgrade", "x": 150, "y": 32},
-    {"type": "inventory", "x": 8, "y": 68, "cols": 9, "rows": 4},
-	{"type": "inventory", "x": -80, "y": 18, "cols": 7, "rows": 4, "boxed": true},
-    {"type": "inventory", "x": 186, "y": 18, "cols": 7, "rows": 4, "boxed": true}
+    {"type": "inventory", "x": 8, "y": 68, "cols": 9, "rows": 3}
   ],
   "weaponMounts": [],
   "passengerPositions": [
@@ -2327,5 +2325,15 @@
     {"width": 4.89, "height": 1.05, "x": -4.557, "y": 2.444, "z": 0.00},
     {"width": 4.89, "height": 1.05, "x": -10.51, "y": 3.395, "z": 0.00},
     {"width": 4.89, "height": 1.05, "x": -16.36, "y": 4.029, "z": 0.00}
+  ],
+  "trails": [
+    {"x": 4.25, "y": 2.35, "z": 5.85, "size": 2.4, "rotate": 60, "gray": 1.0, "length": 6},
+    {"x": -4.25, "y": 2.35, "z": 5.85, "size": 2.4, "rotate": -60, "gray": 1.0, "length": 6},
+    {"x": 9.1, "y": 3.0, "z": 5.5, "size": 2.4, "rotate": 60, "gray": 1.0, "length": 6},
+    {"x": -9.1, "y": 3.0, "z": 5.5, "size": 2.4, "rotate": -60, "gray": 1.0, "length": 6},
+    {"x": 4.25, "y": 2.35, "z": -7.15, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40},
+    {"x": -4.25, "y": 2.35, "z": -7.15, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40},
+    {"x": 9.1, "y": 3.0, "z": -7.5, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40},
+    {"x": -9.1, "y": 3.0, "z": -7.5, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40}
   ]
 }

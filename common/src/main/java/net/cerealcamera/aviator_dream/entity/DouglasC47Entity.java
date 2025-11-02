@@ -2,6 +2,7 @@ package net.cerealcamera.aviator_dream.entity;
 
 import immersive_aircraft.entity.AircraftEntity;
 import immersive_aircraft.entity.AirplaneEntity;
+import immersive_aircraft.entity.misc.TrailDescriptor;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EntityType;
@@ -9,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.cerealcamera.aviator_dream.AviatorDreams;
 import net.cerealcamera.aviator_dream.Sounds;
+import org.joml.Matrix4f;
 
 public class DouglasC47Entity extends AirplaneEntity {
     public DouglasC47Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
@@ -37,6 +39,11 @@ public class DouglasC47Entity extends AirplaneEntity {
     @Override
     public Item asItem() {
         return AviatorDreams.DOUGLAS_C47_ITEM.get();
+    }
+
+    @Override
+    public float getBaseTrailWidth(Matrix4f transform, int index, TrailDescriptor trail) {
+        return (float) (Math.sqrt(getDeltaMovement().length()) * (0.5f - (pressingInterpolatedX.getSmooth() * trail.x()) * 0.025f) - 0.25f);
     }
 
     @Override

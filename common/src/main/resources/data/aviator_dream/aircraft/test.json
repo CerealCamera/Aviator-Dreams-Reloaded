@@ -17,14 +17,7 @@
   "inventorySlots": [
     {"type": "boiler", "x": 12, "y": 37},
     {"type": "upgrade", "x": 84, "y": 32},
-    {"type": "upgrade", "x": 106, "y": 32},
-    {"type": "upgrade", "x": 128, "y": 32},
-    {"type": "upgrade", "x": 150, "y": 32},
-    {"type": "inventory", "x": 8, "y": 68, "cols": 9, "rows": 4},
-	{"type": "inventory", "x": -80, "y": 18, "cols": 4, "rows": 4, "boxed": true},
-    {"type": "inventory", "x": 186, "y": 18, "cols": 4, "rows": 4, "boxed": true},
-    {"type": "inventory", "x": -80, "y": 106, "cols": 4, "rows": 4, "boxed": true},
-    {"type": "inventory", "x": 186, "y": 106, "cols": 4, "rows": 4, "boxed": true}
+    {"type": "inventory", "x": 8, "y": 68, "cols": 9, "rows": 1}
   ],
   "weaponMounts": [],
   "passengerPositions": [

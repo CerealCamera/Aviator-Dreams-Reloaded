@@ -4,9 +4,13 @@
       "id": "aviator_dream:dehavilland_dh106"
     },
     "title": {
-      "translate": "advancements.aviator_dreams.aviators_dreams"
+      "translate": "advancements.aviator_dream.aviators_dreams",
+      "fallback": "Aviator's Dreams"
     },
-    "description": "Obtained the Comet 1",
+    "description": {
+      "translate": "advancements.aviator_dream.aviators_dreams.description",
+      "fallback": "Obtain the Comet 1"
+    },
     "frame": "goal"
   },
   "criteria": {

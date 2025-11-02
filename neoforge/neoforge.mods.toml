@@ -16,7 +16,7 @@ itemIcon = "aviator_dream:douglas_dc1"
 [[dependencies.aviator_dream]]
 modId = "minecraft"
 type = "required"
-versionRange = "[@MINECRAFT_VERSION@,)"
+versionRange = "[@MINECRAFT_VERSION@]"
 ordering = "AFTER"
 side = "BOTH"
 
