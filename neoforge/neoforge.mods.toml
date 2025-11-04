@@ -30,6 +30,6 @@ side = "BOTH"
 [[dependencies.aviator_dream]]
 modId = "immersive_aircraft"
 type = "required"
-versionRange = "[1.2.2,)"
+versionRange = "[1.3.0,)"
 ordering = "AFTER"
 side = "BOTH"
