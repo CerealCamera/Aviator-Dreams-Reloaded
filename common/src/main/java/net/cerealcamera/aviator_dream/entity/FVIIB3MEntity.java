@@ -2,6 +2,7 @@ package net.cerealcamera.aviator_dream.entity;
 
 import immersive_aircraft.entity.AircraftEntity;
 import immersive_aircraft.entity.AirplaneEntity;
+import immersive_aircraft.entity.misc.TrailDescriptor;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EntityType;
@@ -9,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.cerealcamera.aviator_dream.AviatorDreams;
 import net.cerealcamera.aviator_dream.Sounds;
+import org.joml.Matrix4f;
 
 public class FVIIB3MEntity extends AirplaneEntity {
     public FVIIB3MEntity(EntityType<? extends AircraftEntity> entityType, Level world) {
@@ -41,11 +43,16 @@ public class FVIIB3MEntity extends AirplaneEntity {
     }
 
     @Override
+    public float getBaseTrailWidth(Matrix4f transform, int index, TrailDescriptor trail) {
+        return (float) (Math.sqrt(getDeltaMovement().length()) * (0.5f - (pressingInterpolatedX.getSmooth() * trail.x()) * 0.025f) - 0.25f);
+    }
+
+    @Override
     public void tick() {
         super.tick();
 
-        if(getEngineTarget() == 0){
-            reactionSpeed = 5.0f;
+        if(getEngineTarget() <= getEnginePower()){
+            reactionSpeed = 160.0f;
         }
         else {
             reactionSpeed = 180.0f;
