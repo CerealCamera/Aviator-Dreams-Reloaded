@@ -4,7 +4,7 @@
     "durability": 4.0,
     "yawSpeed": 0.8,
     "pitchSpeed": 0.8,
-    "engineSpeed": 0.068,
+    "engineSpeed": 0.07,
     "pushSpeed": 0.05,
     "glideFactor": 0.08,
     "driftDrag": 0.00001,
@@ -104,10 +104,10 @@
     {"width": 4.470, "height": 0.3, "x": -9.003, "y": 3.419, "z": -1.531}
   ],
   "trails": [
-    {"x": 0, "y": 2.2, "z": 3.47, "size": 1.8, "rotate": 60, "gray": 1.0, "length": 2},
-    {"x": 2.2, "y": 2.4, "z": 1.54, "size": 1.6, "rotate": 60, "gray": 1.0, "length": 4},
-    {"x": -2.2, "y": 2.4, "z": 1.54, "size": 1.6, "rotate": -60, "gray": 1.0, "length": 4},
-    {"x": 2.2, "y": 2.4, "z": -7.5, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40},
-    {"x": -2.2, "y": 2.4, "z": -7.5, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40}
+    {"x": 0, "y": 2.2, "z": 3.47, "size": 1.8, "rotate": 60.0, "gray": 1.0, "length": 1},
+    {"x": 2.2, "y": 2.4, "z": 1.54, "size": 1.6, "rotate": 60.0, "gray": 1.0, "length": 4},
+    {"x": -2.2, "y": 2.4, "z": 1.54, "size": 1.6, "rotate": -60.0, "gray": 1.0, "length": 4},
+    {"x": 2.2, "y": 2.4, "z": -7.5, "size": 0.5, "rotate": 0.0, "gray": 1.0, "length": 40},
+    {"x": -2.2, "y": 2.4, "z": -7.5, "size": 0.5, "rotate": 0.0, "gray": 1.0, "length": 40}
   ]
 }

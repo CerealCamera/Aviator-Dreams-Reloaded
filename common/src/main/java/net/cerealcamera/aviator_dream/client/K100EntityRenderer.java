@@ -12,7 +12,7 @@ public class K100EntityRenderer extends AircraftEntityRenderer<K100Entity> {
     private static final ResourceLocation ID = AviatorDreams.locate("toyota_stout_k100");
 
     private final ModelPartRenderHandler<K100Entity> model = new ModelPartRenderHandler<K100Entity>()
-            .add("body", (model, object, vertexConsumerProvider, entity, matrixStack, light, time, modelPartRenderer) ->
+            .add("dyed_body", (model, object, vertexConsumerProvider, entity, matrixStack, light, time, modelPartRenderer) ->
                     renderDyed(model, object, vertexConsumerProvider, entity, matrixStack, light, time, false, false))
             .add("dyed_body_highlights", (model, object, vertexConsumerProvider, entity, matrixStack, light, time, modelPartRenderer) ->
                     renderDyed(model, object, vertexConsumerProvider, entity, matrixStack, light, time, true, false));

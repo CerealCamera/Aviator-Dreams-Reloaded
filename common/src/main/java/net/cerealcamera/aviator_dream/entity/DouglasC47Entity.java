@@ -50,7 +50,7 @@ public class DouglasC47Entity extends AirplaneEntity {
     public void tick() {
         super.tick();
 
-        if(getEngineTarget() == 0){
+        if(getEngineTarget() <= getEnginePower()){
             reactionSpeed = 200.0f;
         }
         else {

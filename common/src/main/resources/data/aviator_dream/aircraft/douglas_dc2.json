@@ -242,7 +242,7 @@
   "trails": [
     {"x": 2.7, "y": 2.05, "z": 3.4, "size": 2.0, "rotate": 60, "gray": 1.0, "length": 5},
     {"x": -2.7, "y": 2.05, "z": 3.4, "size": 2.0, "rotate": -60, "gray": 1.0, "length": 5},
-    {"x": 2.7, "y": 2.05, "z": -7.6, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40},
-    {"x": -2.7, "y": 2.05, "z": -7.6, "size": 0.5, "rotate": 0, "gray": 1.0, "length": 40}
+    {"x": 2.7, "y": 2.05, "z": -7.6, "size": 0.5, "rotate": 0.0, "gray": 1.0, "length": 40},
+    {"x": -2.7, "y": 2.05, "z": -7.6, "size": 0.5, "rotate": 0.0, "gray": 1.0, "length": 40}
   ]
 }

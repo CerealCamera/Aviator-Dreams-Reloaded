@@ -52,8 +52,8 @@ public class DehavillandDH106Entity extends AirplaneEntity {
     public void tick() {
         super.tick();
 
-        if(getEngineTarget() == 0){
-            reactionSpeed = 500.0f;
+        if(getEngineTarget() <= getEnginePower()){
+            reactionSpeed = 300.0f;
         }
         else {
             reactionSpeed = 200.0f;
