@@ -25,7 +25,7 @@
   
   "item.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
   "item.aviator_dream.dehavilland_dh106.description": "The world's very first jet passenger airliner. Fitted with four centrifugal-flow jet engines, it flies faster than other propeller driven aircraft but also consumes more fuel. This one also has fuselage reinforcements so it won't repeat it's history again.",
-  "entity.aviator_dream.dehavilland_dh106": "Comet 1",
+  "entity.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
 
   "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
   "item.aviator_dream.toyota_stout_k100.description": "A light truck fitted with a four-cylinder inline engine. Cheap and reliable, this thing will work for you as long as you feed it enough fuel. Just make sure to not drive it too fast.",
@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "A test entity used as a base for ground vehicles.",
   "entity.aviator_dream.test": "Test Entity",
 
-  "advancements.aviator_dream.aviators_dreams": "Aviator's Dreams",
+  "advancements.aviator_dream.aviators_dreams": "Aviator's Dream",
   "advancements.aviator_dream.aviators_dreams.description": "Obtain the Comet 1"
 }

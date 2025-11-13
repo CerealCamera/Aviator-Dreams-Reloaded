@@ -1,1 +1,40 @@
-{  "item.aviator_dream.douglas_dc1": "道格拉斯 DC-1",  "item.aviator_dream.douglas_dc1.description": "一架由道格拉斯飞机公司制造的原型客机，将继续以DC-2和DC-3的名义继续其旅程。它可靠、快速且能够携带很多东西，但是有点不稳定。",  "entity.aviator_dream.douglas_dc1": "道格拉斯 DC-1",  "item.aviator_dream.douglas_dc2": "道格拉斯 DC-2",  "item.aviator_dream.douglas_dc2.description": "DC-1 的量产版。它配备了更多的座椅和更强大的发动机，并进行了一些修改以使其更加稳定。",  "entity.aviator_dreams.douglas_dc2": "道格拉斯 DC-2",  "item.aviator_dream.douglas_c47": "道格拉斯 C-47",  "item.aviator_dream.douglas_c47.description": "DC-3的军用版本侧重于货物运输，改装了14缸发动机。这个东西可以比以前的东西携带更多的东西。",  "entity.aviator_dreams.douglas_c47": "道格拉斯 C-47",    "item.aviator_dream.lockheed_l1049g": "洛克希德 L-1049G",  "item.aviator_dream.lockheed_l1049g.description": "专为长途和高速飞行而设计的客机。",  "entity.aviator_dreams.lockheed_l1049g": "洛克希德 L-1049G",    "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",  "item.aviator_dream.fokker_fviib3m.description": "F.VIIA 的升级版，增加了两个引擎，以提高可靠性。",  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",    "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",  "item.aviator_dream.fokker_fviia.description": "一架装有7缸发动机的木制客机。它速度缓慢且动力不足，但却是当时新手航空公司所有者的最佳选择。",  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",    "item.aviator_dream.dehavilland_dh106": "德哈维兰 DH.106 彗星 1",  "item.aviator_dream.dehavilland_dh106.description": "世界上第一架喷气客机。它配备了四台离心流喷气发动机，飞行速度比其他螺旋桨驱动的飞机快，但也消耗了更多的燃料。，n + 这个机身得到了增援所以它不会再重演历史了。",  "entity.aviator_dream.dehavilland_dh106": "彗星 1",  "item.aviator_dream.toyota_stout_k100": "丰田 Stout RK100",  "item.aviator_dream.toyota_stout_k100.description": "装有四缸直列发动机的轻型卡车。便宜又可靠，只要你给它提供足够的燃料，它就会对你有用。只要确保不要开得太快即可。",  "entity.aviator_dream.toyota_stout_k100": "丰田 Stout RK100",  "item.aviator_dream.test": "测试实体",  "item.aviator_dream.test.description": "用作地面车辆基地的测试实体。",  "entity.aviator_dream.test": "测试实体"}
+{
+  "item.aviator_dream.douglas_dc1": "道格拉斯 DC-1",
+  "item.aviator_dream.douglas_dc1.description": "一架由道格拉斯飞机公司制造的原型客机，将继续以DC-2和DC-3的名义继续其旅程。它可靠、快速且能够携带很多东西，但是有点不稳定。",
+  "entity.aviator_dream.douglas_dc1": "道格拉斯 DC-1",
+
+  "item.aviator_dream.douglas_dc2": "道格拉斯 DC-2",
+  "item.aviator_dream.douglas_dc2.description": "DC-1 的量产版。它配备了更多的座椅和更强大的发动机，并进行了一些修改以使其更加稳定。",
+  "entity.aviator_dream.douglas_dc2": "道格拉斯 DC-2",
+
+  "item.aviator_dream.douglas_c47": "道格拉斯 C-47",
+  "item.aviator_dream.douglas_c47.description": "DC-3的军用版本侧重于货物运输，改装了14缸发动机。这个东西可以比以前的东西携带更多的东西。",
+  "entity.aviator_dream.douglas_c47": "道格拉斯 C-47",
+  
+  "item.aviator_dream.lockheed_l1049g": "洛克希德 L-1049G",
+  "item.aviator_dream.lockheed_l1049g.description": "专为长途和高速飞行而设计的客机。",
+  "entity.aviator_dream.lockheed_l1049g": "洛克希德 L-1049G",
+  
+  "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  "item.aviator_dream.fokker_fviib3m.description": "F.VIIA 的升级版，增加了两个引擎，以提高可靠性。",
+  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  
+  "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  "item.aviator_dream.fokker_fviia.description": "一架装有7缸发动机的木制客机。它速度缓慢且动力不足，但却是当时新手航空公司所有者的最佳选择。",
+  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  
+  "item.aviator_dream.dehavilland_dh106": "德哈维兰 DH.106 彗星 1",
+  "item.aviator_dream.dehavilland_dh106.description": "世界上第一架喷气式客机。它配备了四台离心流喷气发动机，飞行速度比其他螺旋桨驱动的飞机快，但也消耗更多的燃料。这架飞机还有机身增援，因此它不会再重演历史了。",
+  "entity.aviator_dream.dehavilland_dh106": "德哈维兰 DH.106 彗星 1",
+
+  "item.aviator_dream.toyota_stout_k100": "丰田 Stout RK100",
+  "item.aviator_dream.toyota_stout_k100.description": "装有四缸直列发动机的轻型卡车。便宜又可靠，只要你给它提供足够的燃料，它就会对你有用。只要确保不要开得太快即可。",
+  "entity.aviator_dream.toyota_stout_k100": "丰田 Stout RK100",
+
+  "item.aviator_dream.test": "测试实体",
+  "item.aviator_dream.test.description": "用作地面车辆基地的测试实体。",
+  "entity.aviator_dream.test": "测试实体",
+
+  "advancements.aviator_dream.aviators_dreams": "飞行员之梦",
+  "advancements.aviator_dream.aviators_dreams.description": "获得 1 号彗星"
+}
