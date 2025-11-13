@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "A test entity used as a base for ground vehicles.",
   "entity.aviator_dream.test": "Test Entity",
 
-  "advancements.aviator_dream.aviators_dreams": "Aviator's Dream",
-  "advancements.aviator_dream.aviators_dreams.description": "Obtain the Comet 1"
+  "advancements.aviator_dream.aviators_dream": "Aviator's Dream",
+  "advancements.aviator_dream.aviators_dream.description": "Obtain the Comet 1"
 }

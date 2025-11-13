@@ -23,9 +23,9 @@
   "item.aviator_dream.fokker_fviia.description": "Puinen matkustajakone, jossa on yksi 7-sylinterinen moottori. Se on hidas ja alitehoinen, mutta oli tuolloin paras vaihtoehto aloituslentoyhtiön omistajalle.",
   "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
   
-  "item.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
+  "item.aviator_dream.dehavilland_dh106": "kirjoittanut Havilland DH.106 Comet 1",
   "item.aviator_dream.dehavilland_dh106.description": "Maailman ensimmäinen lentokonematkustajakone. Neljällä sentrifugaalivirtaussuihkumoottorilla varustettu se lentää nopeammin kuin muut potkurikäyttöiset lentokoneet, mutta kuluttaa myös enemmän polttoainetta. Tässä on myös rungon vahvistuksia, joten se ei toista historiaansa uudelleen.",
-  "entity.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
+  "entity.aviator_dream.dehavilland_dh106": "kirjoittanut Havilland DH.106 Comet 1",
 
   "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
   "item.aviator_dream.toyota_stout_k100.description": "Kevyt kuorma-auto, jossa on nelisylinterinen rivimoottori. Halpa ja luotettava, tämä asia toimii sinulle niin kauan kuin syötät sille tarpeeksi polttoainetta. Varmista vain, ettet aja sitä liian nopeasti.",
@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "Testikokonaisuus, jota käytetään maa-ajoneuvojen tukikohtana.",
   "entity.aviator_dream.test": "Testikokonaisuus",
 
-  "advancements.aviator_dream.aviators_dreams": "Lentäjän unelma",
-  "advancements.aviator_dream.aviators_dreams.description": "Hanki komeetta 1"
+  "advancements.aviator_dream.aviators_dream": "Lentäjän unelma",
+  "advancements.aviator_dream.aviators_dream.description": "Hanki komeetta 1"
 }

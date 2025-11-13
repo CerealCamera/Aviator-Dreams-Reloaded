@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "Eine Testeinheit, die als Basis für Bodenfahrzeuge dient.",
   "entity.aviator_dream.test": "Entität testen",
 
-  "advancements.aviator_dream.aviators_dreams": "Der Traum eines Fliegers",
-  "advancements.aviator_dream.aviators_dreams.description": "Besorgen Sie sich den Kometen 1"
+  "advancements.aviator_dream.aviators_dream": "Der Traum eines Fliegers",
+  "advancements.aviator_dream.aviators_dream.description": "Besorgen Sie sich den Kometen 1"
 }

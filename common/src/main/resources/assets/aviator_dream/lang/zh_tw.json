@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "用作地面車輛基礎的測試實體。",
   "entity.aviator_dream.test": "測試實體",
 
-  "advancements.aviator_dream.aviators_dreams": "飛行員的夢想",
-  "advancements.aviator_dream.aviators_dreams.description": "獲得星座 1"
+  "advancements.aviator_dream.aviators_dream": "飛行員的夢想",
+  "advancements.aviator_dream.aviators_dream.description": "獲得星座 1"
 }

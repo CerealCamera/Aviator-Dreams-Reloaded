@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "地上車両のベースとして使用されるテストエンティティ。",
   "entity.aviator_dream.test": "テストエンティティ",
 
-  "advancements.aviator_dream.aviators_dreams": "アビエーターズ・ドリーム",
-  "advancements.aviator_dream.aviators_dreams.description": "コメット 1 を入手"
+  "advancements.aviator_dream.aviators_dream": "アビエーターズ・ドリーム",
+  "advancements.aviator_dream.aviators_dream.description": "コメット 1 を入手"
 }

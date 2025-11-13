@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "用作地面车辆基地的测试实体。",
   "entity.aviator_dream.test": "测试实体",
 
-  "advancements.aviator_dream.aviators_dreams": "飞行员之梦",
-  "advancements.aviator_dream.aviators_dreams.description": "获得 1 号彗星"
+  "advancements.aviator_dream.aviators_dream": "飞行员之梦",
+  "advancements.aviator_dream.aviators_dream.description": "获得 1 号彗星"
 }

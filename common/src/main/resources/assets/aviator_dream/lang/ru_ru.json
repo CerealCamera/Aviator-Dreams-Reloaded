@@ -35,6 +35,6 @@
   "item.aviator_dream.test.description": "Тестовый объект, используемый в качестве базы для наземных транспортных средств.",
   "entity.aviator_dream.test": "Тестовый объект",
 
-  "advancements.aviator_dream.aviators_dreams": "Мечта авиатора",
-  "advancements.aviator_dream.aviators_dreams.description": "Получите комету 1"
+  "advancements.aviator_dream.aviators_dream": "Мечта авиатора",
+  "advancements.aviator_dream.aviators_dream.description": "Получите комету 1"
 }
