@@ -1,1 +1,40 @@
-{  "item.aviator_dream.douglas_dc1": "Дуглас DC-1",  "item.aviator_dream.douglas_dc1.description": "Прототип авиалайнера, построенный компанией Douglas Aircraft, который продолжит свое путешествие под названием DC-2 и DC-3. Он был надежен, быстр и мог перевозить много грузов, но был немного нестабилен.",  "entity.aviator_dream.douglas_dc1": "Дуглас DC-1",  "item.aviator_dream.douglas_dc2": "Дуглас DC-2",  "item.aviator_dream.douglas_dc2.description": "Серийная версия DC-1. Он был оснащен большим количеством сидений и более мощными двигателями, а также некоторыми модификациями, повышающими его устойчивость.",  "entity.aviator_dreams.douglas_dc2": "Дуглас DC-2",  "item.aviator_dream.douglas_c47": "Дуглас C-47",  "item.aviator_dream.douglas_c47.description": "Военная версия DC-3, ориентированная на грузовой транспорт, оснащенная 14-цилиндровым двигателем. Эта машина может нести больше, чем предыдущий тип.",  "entity.aviator_dreams.douglas_c47": "Дуглас C-47",    "item.aviator_dream.lockheed_l1049g": "Локхид L-1049G",  "item.aviator_dream.lockheed_l1049g.description": "Авиалайнер, предназначенный для дальних рейсов и высокой скорости.",  "entity.aviator_dreams.lockheed_l1049g": "Локхид L-1049G",    "item.aviator_dream.fokker_fviib3m": "Фоккер Ф.VIIB-3M",  "item.aviator_dream.fokker_fviib3m.description": "Модернизированная версия F.VIIA с добавлением еще двух двигателей для повышения надежности.",  "entity.aviator_dream.fokker_fviib3m": "Фоккер Ф.VIIB-3M",    "item.aviator_dream.fokker_fviia": "Фоккер Ф.VIIA",  "item.aviator_dream.fokker_fviia.description": "Деревянный авиалайнер с одним 7-цилиндровым двигателем. Он медленный и маломощный, но в то время он был лучшим вариантом для начинающего владельца авиакомпании.",  "entity.aviator_dream.fokker_fviia": "Фоккер Ф.VIIA",    "item.aviator_dream.dehavilland_dh106": "из Хэвилленда DH.106, комета 1",  "item.aviator_dream.dehavilland_dh106.description": "Самый первый в мире реактивный пассажирский авиалайнер. Оснащенный четырьмя центробежными реактивными двигателями, он летел быстрее других самолетов с пропеллерным приводом, но при этом потреблял больше топлива. , n + Этот самолет получил усиленный фюзеляж, поэтому он больше не повторит свою историю.",  "entity.aviator_dream.dehavilland_dh106": "Комета 1",  "item.aviator_dream.toyota_stout_k100": "Тойота Стаут RK100",  "item.aviator_dream.toyota_stout_k100.description": "Легкий грузовик с четырехцилиндровым рядным двигателем. Дешевая и надежная, эта машина будет работать вам, если вы будете снабжать ее достаточным количеством топлива. Только не ездите на ней слишком быстро.",  "entity.aviator_dream.toyota_stout_k100": "Тойота Стаут RK100",  "item.aviator_dream.test": "Тестовый объект",  "item.aviator_dream.test.description": "Тестовый объект, используемый в качестве базы для наземных транспортных средств.",  "entity.aviator_dream.test": "Тестовый объект"}
+{
+  "item.aviator_dream.douglas_dc1": "Дуглас DC-1",
+  "item.aviator_dream.douglas_dc1.description": "Прототип авиалайнера, построенный компанией Douglas Aircraft, который продолжит свое путешествие под названием DC-2 и DC-3. Он был надежен, быстр и мог перевозить много грузов, но был немного нестабилен.",
+  "entity.aviator_dream.douglas_dc1": "Дуглас DC-1",
+
+  "item.aviator_dream.douglas_dc2": "Дуглас DC-2",
+  "item.aviator_dream.douglas_dc2.description": "Серийная версия DC-1. Он был оснащен большим количеством сидений и более мощными двигателями, а также некоторыми модификациями, повышающими его устойчивость.",
+  "entity.aviator_dream.douglas_dc2": "Дуглас DC-2",
+
+  "item.aviator_dream.douglas_c47": "Дуглас C-47",
+  "item.aviator_dream.douglas_c47.description": "Военная версия DC-3, ориентированная на грузовой транспорт, оснащенная 14-цилиндровым двигателем. Эта машина может нести больше, чем предыдущий тип.",
+  "entity.aviator_dream.douglas_c47": "Дуглас C-47",
+  
+  "item.aviator_dream.lockheed_l1049g": "Локхид L-1049G",
+  "item.aviator_dream.lockheed_l1049g.description": "Авиалайнер, предназначенный для дальних рейсов и высокой скорости.",
+  "entity.aviator_dream.lockheed_l1049g": "Локхид L-1049G",
+  
+  "item.aviator_dream.fokker_fviib3m": "Фоккер Ф.VIIB-3M",
+  "item.aviator_dream.fokker_fviib3m.description": "Модернизированная версия F.VIIA с добавлением еще двух двигателей для повышения надежности.",
+  "entity.aviator_dream.fokker_fviib3m": "Фоккер Ф.VIIB-3M",
+  
+  "item.aviator_dream.fokker_fviia": "Фоккер Ф.VIIA",
+  "item.aviator_dream.fokker_fviia.description": "Деревянный авиалайнер с одним 7-цилиндровым двигателем. Он медленный и маломощный, но в то время он был лучшим вариантом для начинающего владельца авиакомпании.",
+  "entity.aviator_dream.fokker_fviia": "Фоккер Ф.VIIA",
+  
+  "item.aviator_dream.dehavilland_dh106": "из Хэвилленда DH.106, комета 1",
+  "item.aviator_dream.dehavilland_dh106.description": "Самый первый в мире реактивный пассажирский авиалайнер. Оснащенный четырьмя центробежными реактивными двигателями, он летает быстрее других самолетов с пропеллерным приводом, но при этом потребляет больше топлива. Этот самолет также оснащен усилением фюзеляжа, поэтому он больше не повторит свою историю.",
+  "entity.aviator_dream.dehavilland_dh106": "из Хэвилленда DH.106, комета 1",
+
+  "item.aviator_dream.toyota_stout_k100": "Тойота Стаут RK100",
+  "item.aviator_dream.toyota_stout_k100.description": "Легкий грузовик с четырехцилиндровым рядным двигателем. Дешевая и надежная, эта машина будет работать вам, если вы будете снабжать ее достаточным количеством топлива. Только не ездите на ней слишком быстро.",
+  "entity.aviator_dream.toyota_stout_k100": "Тойота Стаут RK100",
+
+  "item.aviator_dream.test": "Тестовый объект",
+  "item.aviator_dream.test.description": "Тестовый объект, используемый в качестве базы для наземных транспортных средств.",
+  "entity.aviator_dream.test": "Тестовый объект",
+
+  "advancements.aviator_dream.aviators_dream": "Мечта авиатора",
+  "advancements.aviator_dream.aviators_dream.description": "Получите комету 1"
+}

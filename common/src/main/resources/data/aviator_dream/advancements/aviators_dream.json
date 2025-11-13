@@ -4,11 +4,11 @@
       "item": "aviator_dream:dehavilland_dh106"
     },
     "title": {
-      "translate": "advancements.aviator_dream.aviators_dreams",
-      "fallback": "Aviator's Dreams"
+      "translate": "advancements.aviator_dream.aviators_dream",
+      "fallback": "Aviator's Dream"
     },
     "description": {
-      "translate": "advancements.aviator_dream.aviators_dreams.description",
+      "translate": "advancements.aviator_dream.aviators_dream.description",
       "fallback": "Obtain the Comet 1"
     },
     "frame": "goal"
@@ -29,7 +29,7 @@
   },
   "requirements": [
     [
-      "aviators_dreams"
+      "aviators_dream"
     ]
   ],
   "rewards": {

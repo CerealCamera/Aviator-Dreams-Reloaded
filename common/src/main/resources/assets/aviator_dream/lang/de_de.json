@@ -1,1 +1,40 @@
-{  "item.aviator_dream.douglas_dc1": "Douglas DC-1",  "item.aviator_dream.douglas_dc1.description": "Ein von Douglas Aircraft gebauter Prototyp eines Verkehrsflugzeugs, der seine Reise als DC-2 und DC-3 fortsetzen sollte. Es war zuverlässig, schnell und konnte viel transportieren, aber es war ein bisschen instabil.",  "entity.aviator_dream.douglas_dc1": "Douglas DC-1",  "item.aviator_dream.douglas_dc2": "Douglas DC-2",  "item.aviator_dream.douglas_dc2.description": "Eine Produktionsversion der DC-1. Sie wurde mit mehr Sitzen und stärkeren Motoren sowie einigen Modifikationen ausgestattet, um sie stabiler zu machen.",  "entity.aviator_dreams.douglas_dc2": "Douglas DC-2",  "item.aviator_dream.douglas_c47": "Douglas C-47",  "item.aviator_dream.douglas_c47.description": "Eine militärische Version der DC-3 konzentrierte sich auf den Frachttransport und war mit einem 14-Zylinder-Motor ausgestattet. Dieses Ding kann mehr transportieren als sein Vorgängertyp.",  "entity.aviator_dreams.douglas_c47": "Douglas C-47",    "item.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",  "item.aviator_dream.lockheed_l1049g.description": "Ein Verkehrsflugzeug, das für Langstrecken und hohe Geschwindigkeiten konzipiert ist.",  "entity.aviator_dreams.lockheed_l1049g": "Lockheed L-1049G",    "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",  "item.aviator_dream.fokker_fviib3m.description": "Eine verbesserte Version des F.VIIA mit zwei weiteren Motoren für mehr Zuverlässigkeit.",  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",    "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",  "item.aviator_dream.fokker_fviia.description": "Ein Holzflugzeug mit einem 7-Zylinder-Motor. Es ist langsam und untermotorisiert, war aber damals die beste Option für einen Besitzer einer Starterfluggesellschaft.",  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",    "item.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Komet 1",  "item.aviator_dream.dehavilland_dh106.description": "Das allererste Jet-Passagierflugzeug der Welt. Es war mit vier Radialstrahltriebwerken ausgestattet und flog schneller als andere Propellerflugzeuge, verbrauchte aber auch mehr Treibstoff. , n + Dieses Flugzeug wurde am Rumpf verstärkt, sodass es seine Geschichte nicht noch einmal wiederholen wird.",  "entity.aviator_dream.dehavilland_dh106": "Komet 1",  "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK 100",  "item.aviator_dream.toyota_stout_k100.description": "Ein leichter Lkw, der mit einem Vierzylinder-Reihenmotor ausgestattet ist. Billig und zuverlässig, dieses Ding funktioniert für Sie, solange Sie ihm genug Treibstoff geben. Achte nur darauf, dass du es nicht zu schnell fährst.",  "entity.aviator_dream.toyota_stout_k100": "Toyota Stout RK 100",  "item.aviator_dream.test": "Entität testen",  "item.aviator_dream.test.description": "Eine Testeinheit, die als Basis für Bodenfahrzeuge dient.",  "entity.aviator_dream.test": "Entität testen"}
+{
+  "item.aviator_dream.douglas_dc1": "Douglas DC-1",
+  "item.aviator_dream.douglas_dc1.description": "Ein von Douglas Aircraft gebauter Prototyp eines Verkehrsflugzeugs, der seine Reise als DC-2 und DC-3 fortsetzen sollte. Es war zuverlässig, schnell und konnte viel transportieren, aber es war ein bisschen instabil.",
+  "entity.aviator_dream.douglas_dc1": "Douglas DC-1",
+
+  "item.aviator_dream.douglas_dc2": "Douglas DC-2",
+  "item.aviator_dream.douglas_dc2.description": "Eine Produktionsversion der DC-1. Sie wurde mit mehr Sitzen und stärkeren Motoren sowie einigen Modifikationen ausgestattet, um sie stabiler zu machen.",
+  "entity.aviator_dream.douglas_dc2": "Douglas DC-2",
+
+  "item.aviator_dream.douglas_c47": "Douglas C-47",
+  "item.aviator_dream.douglas_c47.description": "Eine militärische Version der DC-3 konzentrierte sich auf den Frachttransport und war mit einem 14-Zylinder-Motor ausgestattet. Dieses Ding kann mehr transportieren als sein Vorgängertyp.",
+  "entity.aviator_dream.douglas_c47": "Douglas C-47",
+  
+  "item.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
+  "item.aviator_dream.lockheed_l1049g.description": "Ein Verkehrsflugzeug, das für Langstrecken und hohe Geschwindigkeiten konzipiert ist.",
+  "entity.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
+  
+  "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  "item.aviator_dream.fokker_fviib3m.description": "Eine verbesserte Version des F.VIIA mit zwei weiteren Motoren für mehr Zuverlässigkeit.",
+  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  
+  "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  "item.aviator_dream.fokker_fviia.description": "Ein Holzflugzeug mit einem 7-Zylinder-Motor. Es ist langsam und untermotorisiert, war aber damals die beste Option für einen Besitzer einer Starterfluggesellschaft.",
+  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  
+  "item.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Komet 1",
+  "item.aviator_dream.dehavilland_dh106.description": "Das allererste Jet-Passagierflugzeug der Welt. Es ist mit vier Radialstrahltriebwerken ausgestattet und fliegt schneller als andere Propellerflugzeuge, verbraucht aber auch mehr Treibstoff. Dieses Flugzeug hat auch Rumpfverstärkungen, damit es seine Geschichte nicht noch einmal wiederholt.",
+  "entity.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Komet 1",
+
+  "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK 100",
+  "item.aviator_dream.toyota_stout_k100.description": "Ein leichter Lkw, der mit einem Vierzylinder-Reihenmotor ausgestattet ist. Billig und zuverlässig, dieses Ding funktioniert für Sie, solange Sie ihm genug Treibstoff geben. Achte nur darauf, dass du es nicht zu schnell fährst.",
+  "entity.aviator_dream.toyota_stout_k100": "Toyota Stout RK 100",
+
+  "item.aviator_dream.test": "Entität testen",
+  "item.aviator_dream.test.description": "Eine Testeinheit, die als Basis für Bodenfahrzeuge dient.",
+  "entity.aviator_dream.test": "Entität testen",
+
+  "advancements.aviator_dream.aviators_dream": "Der Traum eines Fliegers",
+  "advancements.aviator_dream.aviators_dream.description": "Besorgen Sie sich den Kometen 1"
+}

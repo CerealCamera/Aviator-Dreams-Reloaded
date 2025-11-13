@@ -1,1 +1,40 @@
-{  "item.aviator_dream.douglas_dc1": "Douglas DC-1",  "item.aviator_dream.douglas_dc1.description": "Douglas Aircraftin rakentama prototyyppi, joka jatkaisi matkaansa nimellä DC-2 ja DC-3. Se oli luotettava, nopea ja pystyi kantamaan paljon, mutta se oli hieman epävakaa.",  "entity.aviator_dream.douglas_dc1": "Douglas DC-1",  "item.aviator_dream.douglas_dc2": "Douglas DC-2",  "item.aviator_dream.douglas_dc2.description": "DC-1: n tuotantoversio. Siinä oli enemmän istuimia ja tehokkaampia moottoreita sekä joitain muutoksia sen vakaamiseksi.",  "entity.aviator_dreams.douglas_dc2": "Douglas DC-2",  "item.aviator_dream.douglas_c47": "Douglas C-47",  "item.aviator_dream.douglas_c47.description": "DC-3: n sotilasversio keskittyi rahtiliikenteeseen, joka oli varustettu 14-sylinterisellä moottorilla. Tämä asia voi kuljettaa enemmän kuin edellinen tyyppi.",  "entity.aviator_dreams.douglas_c47": "Douglas C-47",    "item.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",  "item.aviator_dream.lockheed_l1049g.description": "Lentokone, joka on suunniteltu pitkille matkoille ja suurelle nopeudelle.",  "entity.aviator_dreams.lockheed_l1049g": "Lockheed L-1049G",    "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",  "item.aviator_dream.fokker_fviib3m.description": "Päivitetty versio F.VIIA: sta, johon on lisätty kaksi muuta moottoria luotettavuuden lisäämiseksi.",  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",    "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",  "item.aviator_dream.fokker_fviia.description": "Puinen matkustajakone, jossa on yksi 7-sylinterinen moottori. Se on hidas ja alitehoinen, mutta oli tuolloin paras vaihtoehto aloituslentoyhtiön omistajalle.",  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",    "item.aviator_dream.dehavilland_dh106": "kirjoittanut Havilland DH.106 Comet 1",  "item.aviator_dream.dehavilland_dh106.description": "Maailman ensimmäinen lentokonematkustajakone. Neljällä sentrifugaalivirtaussuihkumoottorilla varustettu se lensi nopeammin kuin muut potkurikäyttöiset lentokoneet, mutta kulutti myös enemmän polttoainetta. , n + Tämä sai rungon vahvistuksia, joten se ei toista historiaansa uudelleen.",  "entity.aviator_dream.dehavilland_dh106": "Komeetta 1",  "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",  "item.aviator_dream.toyota_stout_k100.description": "Kevyt kuorma-auto, jossa on nelisylinterinen rivimoottori. Halpa ja luotettava, tämä asia toimii sinulle niin kauan kuin syötät sille tarpeeksi polttoainetta. Varmista vain, ettet aja sitä liian nopeasti.",  "entity.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",  "item.aviator_dream.test": "Testikokonaisuus",  "item.aviator_dream.test.description": "Testikokonaisuus, jota käytetään maa-ajoneuvojen tukikohtana.",  "entity.aviator_dream.test": "Testikokonaisuus"}
+{
+  "item.aviator_dream.douglas_dc1": "Douglas DC-1",
+  "item.aviator_dream.douglas_dc1.description": "Douglas Aircraftin rakentama prototyyppi, joka jatkaisi matkaansa nimellä DC-2 ja DC-3. Se oli luotettava, nopea ja pystyi kantamaan paljon, mutta se oli hieman epävakaa.",
+  "entity.aviator_dream.douglas_dc1": "Douglas DC-1",
+
+  "item.aviator_dream.douglas_dc2": "Douglas DC-2",
+  "item.aviator_dream.douglas_dc2.description": "DC-1: n tuotantoversio. Siinä oli enemmän istuimia ja tehokkaampia moottoreita sekä joitain muutoksia sen vakaamiseksi.",
+  "entity.aviator_dream.douglas_dc2": "Douglas DC-2",
+
+  "item.aviator_dream.douglas_c47": "Douglas C-47",
+  "item.aviator_dream.douglas_c47.description": "DC-3: n sotilasversio keskittyi rahtiliikenteeseen, joka oli varustettu 14-sylinterisellä moottorilla. Tämä asia voi kuljettaa enemmän kuin edellinen tyyppi.",
+  "entity.aviator_dream.douglas_c47": "Douglas C-47",
+  
+  "item.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
+  "item.aviator_dream.lockheed_l1049g.description": "Lentokone, joka on suunniteltu pitkille matkoille ja suurelle nopeudelle.",
+  "entity.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
+  
+  "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  "item.aviator_dream.fokker_fviib3m.description": "Päivitetty versio F.VIIA: sta, johon on lisätty kaksi muuta moottoria luotettavuuden lisäämiseksi.",
+  "entity.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
+  
+  "item.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  "item.aviator_dream.fokker_fviia.description": "Puinen matkustajakone, jossa on yksi 7-sylinterinen moottori. Se on hidas ja alitehoinen, mutta oli tuolloin paras vaihtoehto aloituslentoyhtiön omistajalle.",
+  "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
+  
+  "item.aviator_dream.dehavilland_dh106": "kirjoittanut Havilland DH.106 Comet 1",
+  "item.aviator_dream.dehavilland_dh106.description": "Maailman ensimmäinen lentokonematkustajakone. Neljällä sentrifugaalivirtaussuihkumoottorilla varustettu se lentää nopeammin kuin muut potkurikäyttöiset lentokoneet, mutta kuluttaa myös enemmän polttoainetta. Tässä on myös rungon vahvistuksia, joten se ei toista historiaansa uudelleen.",
+  "entity.aviator_dream.dehavilland_dh106": "kirjoittanut Havilland DH.106 Comet 1",
+
+  "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
+  "item.aviator_dream.toyota_stout_k100.description": "Kevyt kuorma-auto, jossa on nelisylinterinen rivimoottori. Halpa ja luotettava, tämä asia toimii sinulle niin kauan kuin syötät sille tarpeeksi polttoainetta. Varmista vain, ettet aja sitä liian nopeasti.",
+  "entity.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
+
+  "item.aviator_dream.test": "Testikokonaisuus",
+  "item.aviator_dream.test.description": "Testikokonaisuus, jota käytetään maa-ajoneuvojen tukikohtana.",
+  "entity.aviator_dream.test": "Testikokonaisuus",
+
+  "advancements.aviator_dream.aviators_dream": "Lentäjän unelma",
+  "advancements.aviator_dream.aviators_dream.description": "Hanki komeetta 1"
+}

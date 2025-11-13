@@ -5,15 +5,15 @@
 
   "item.aviator_dream.douglas_dc2": "Douglas DC-2",
   "item.aviator_dream.douglas_dc2.description": "A production version of the DC-1. It was fitted with more seats and more powerful engines as well as some modifications to make it more stable.",
-  "entity.aviator_dreams.douglas_dc2": "Douglas DC-2",
+  "entity.aviator_dream.douglas_dc2": "Douglas DC-2",
 
   "item.aviator_dream.douglas_c47": "Douglas C-47",
   "item.aviator_dream.douglas_c47.description": "A military version of the DC-3 focused on cargo transport refitted with a 14-cylinder engine. This thing can carry more than its previous type.",
-  "entity.aviator_dreams.douglas_c47": "Douglas C-47",
+  "entity.aviator_dream.douglas_c47": "Douglas C-47",
   
   "item.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
   "item.aviator_dream.lockheed_l1049g.description": "An airliner designed for long haul and high speed.",
-  "entity.aviator_dreams.lockheed_l1049g": "Lockheed L-1049G",
+  "entity.aviator_dream.lockheed_l1049g": "Lockheed L-1049G",
   
   "item.aviator_dream.fokker_fviib3m": "Fokker F.VIIB-3M",
   "item.aviator_dream.fokker_fviib3m.description": "An upgraded version of the F.VIIA with two more engines added for more reliability.",
@@ -24,8 +24,8 @@
   "entity.aviator_dream.fokker_fviia": "Fokker F.VIIA",
   
   "item.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
-  "item.aviator_dream.dehavilland_dh106.description": "The world's very first jet passenger airliner. Fitted with four centrifugal-flow jet engines, it flies faster than other aircraft but also consumes more fuel. This one also has fuselage reinforcements so it won't repeat it's history again.",
-  "entity.aviator_dream.dehavilland_dh106": "Comet 1",
+  "item.aviator_dream.dehavilland_dh106.description": "The world's very first jet passenger airliner. Fitted with four centrifugal-flow jet engines, it flies faster than other propeller driven aircraft but also consumes more fuel. This one also has fuselage reinforcements so it won't repeat it's history again.",
+  "entity.aviator_dream.dehavilland_dh106": "de Havilland DH.106 Comet 1",
 
   "item.aviator_dream.toyota_stout_k100": "Toyota Stout RK100",
   "item.aviator_dream.toyota_stout_k100.description": "A light truck fitted with a four-cylinder inline engine. Cheap and reliable, this thing will work for you as long as you feed it enough fuel. Just make sure to not drive it too fast.",
@@ -33,5 +33,8 @@
 
   "item.aviator_dream.test": "Test Entity",
   "item.aviator_dream.test.description": "A test entity used as a base for ground vehicles.",
-  "entity.aviator_dream.test": "Test Entity"
+  "entity.aviator_dream.test": "Test Entity",
+
+  "advancements.aviator_dream.aviators_dream": "Aviator's Dream",
+  "advancements.aviator_dream.aviators_dream.description": "Obtain the Comet 1"
 }
