@@ -14,7 +14,7 @@
     "frame": "goal"
   },
   "criteria": {
-    "aviators_dreams": {
+    "aviators_dream": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
