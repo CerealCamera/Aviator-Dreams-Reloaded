@@ -1,7 +1,11 @@
 This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded) and [Curseforge](https://www.curseforge.com/minecraft/mc-mods/aviator-dreams-reloaded)
 
+## IMPORTANT: Empty all aircraft inventories before updating to 1.2.0, as they've been changed!
+
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/38d40970-2a58-4b3b-98bc-81265f1c02c4" />
+
 # What is Aviator Dreams (Reloaded)?
-Well, it is a fork of [Aviator Dreams (by Nax)](https://github.com/Naxgeneral/Aviator-Dream) which adds improvements and fixes to the original mod and is made for newer versions.
+Well, it is a fork of [Aviator Dreams](https://github.com/Naxgeneral/Aviator-Dream) [(by Nax)](https://github.com/Naxgeneral) which adds improvements and fixes to the original mod and is made for newer versions.
 
 The original mod, Aviator Dreams is an addon for Immersive Aircraft which adds real life planes (and vehicles).
 
@@ -36,12 +40,11 @@ Aircraft included (so far) :
 
 
 # Credits
-* CerealCamera (Ported to Immersive Aircraft 1.3.0 and NeoForge, fixes and improvements).
-* [Nax](https://github.com/Naxgeneral) (Models and Textures). 
-* Hashim (Fokker F7 Texture). 
-* Conczin (Helped Nax set up the orginal project troubleshoot it). 
-* [Luke100000](https://github.com/Luke100000) (Provided useful template for add-on creation)
-
+* CerealCamera - Ported to Immersive Aircraft 1.3.0 and NeoForge, fixes and improvements
+* [Nax](https://github.com/Naxgeneral) - Models and Textures
+* Hashim - Fokker F.VII(F7) Texture
+* [Bomb787](https://github.com/Bomb787) - Forge cleanup and registry fix
+* [Luke100000/Conczin](https://github.com/Luke100000) - Provided a useful template for add-on creation and helped Nax set up the orginal project troubleshoot it
 
 # Licence
 
