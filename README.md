@@ -1,7 +1,5 @@
 This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded) and [Curseforge](https://www.curseforge.com/minecraft/mc-mods/aviator-dreams-reloaded)
 
-## IMPORTANT: Empty all aircraft inventories before updating to 1.2.0, as they've been changed!
-
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/38d40970-2a58-4b3b-98bc-81265f1c02c4" />
 
 # What is Aviator Dreams (Reloaded)?
