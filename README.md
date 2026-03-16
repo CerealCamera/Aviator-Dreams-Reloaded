@@ -1,6 +1,6 @@
-This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded) and [Curseforge](https://curseforge.com/minecraft/mc-mods/aviator-dreams-reloaded)
+This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded) and [Curseforge](https://www.curseforge.com/minecraft/mc-mods/aviator-dreams-reloaded)
 
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/38d40970-2a58-4b3b-98bc-81265f1c02c4" />
+[![Aviator Dreams (Reloaded)](https://modfolio.creeperkatze.de/modrinth/project/aviator-dreams-reloaded?maxVersions=4&showBorder=false)](https://modrinth.com/mod/aviator-dreams-reloaded)
 
 # What is Aviator Dreams (Reloaded)?
 Well, it is a fork of [Aviator Dreams](https://github.com/Naxgeneral/Aviator-Dream) [(by Nax)](https://github.com/Naxgeneral) which adds improvements and fixes to the original mod and is made for newer versions.
@@ -11,7 +11,7 @@ The original mod, Aviator Dreams is an addon for Immersive Aircraft which adds r
 # Improvements
 * Improved statistics for the Dehavilland DH-106 Comet 1
 * Improved Fabric support
-  
+
 ...and more to come
 
 
@@ -26,14 +26,14 @@ Aviator Dreams (Reloaded) is aimed at improving and fixing Aviator Dreams.
 
 Aviator Dreams is aimed at adding real life planes to the game.
 
-Aircraft included (so far) : 
+Aircraft included (so far) :
 * Dehavilland DH-106 Comet 1
-* Douglas DC-1 
-* Douglas DC-2 
-* Douglas C-47 
-* Fokker F.VIIA 
-* Fokker F.VIIB-3M 
-* Lockheed L-1049G Super Constellation 
+* Douglas DC-1
+* Douglas DC-2
+* Douglas C-47
+* Fokker F.VIIA
+* Fokker F.VIIB-3M
+* Lockheed L-1049G Super Constellation
 * Toyota Stout K100
 
 
