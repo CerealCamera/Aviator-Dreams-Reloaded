@@ -28,14 +28,15 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
 
     // Fabric API. This is technically optional, but you probably want it anyway.
-    modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version+${rootProject.minecraft_version}"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
 
     modImplementation("com.terraformersmc:modmenu:${rootProject.mod_menu_version}")
 
-    modImplementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+fabric")
+    modImplementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+${rootProject.minecraft_version}+fabric")
+    modImplementation "dev.isxander:yet-another-config-lib:${project.yacl_version}+${rootProject.minecraft_version}-fabric"
 }
 
 processResources {
