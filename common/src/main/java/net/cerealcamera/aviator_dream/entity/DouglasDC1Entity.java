@@ -13,6 +13,7 @@ import net.cerealcamera.aviator_dream.Sounds;
 import org.joml.Matrix4f;
 
 public class DouglasDC1Entity extends AirplaneEntity {
+
     public DouglasDC1Entity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }

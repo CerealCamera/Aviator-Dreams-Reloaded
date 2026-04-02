@@ -27,8 +27,6 @@ subprojects {
         maven { url "https://maven.terraformersmc.com/releases/" } // Mod Menu
         maven { url "https://maven.conczin.net/Artifacts" } // Immersive Aircraft
         maven { url "https://maven.blamejared.com/"} // Just Enough Items (Required by Immersive Aircraft)
-        maven { url "https://maven.isxander.dev/releases" } // Yet Another Config Lib
-        maven { url "https://thedarkcolour.github.io/KotlinForForge/" } // Kotlin for Forge (Required by Yet Another Config Lib)
         // Add repositories to retrieve artifacts from in here.
         // You should only use this when depending on other mods because
         // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
