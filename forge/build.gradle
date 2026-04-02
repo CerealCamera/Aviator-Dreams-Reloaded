@@ -34,7 +34,6 @@ dependencies {
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
 
     modImplementation "net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+${rootProject.minecraft_version}+forge"
-    modImplementation "dev.isxander:yet-another-config-lib:${project.yacl_version}+${rootProject.minecraft_version}-forge"
 }
 
 processResources {

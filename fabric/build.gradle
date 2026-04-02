@@ -36,7 +36,6 @@ dependencies {
     modImplementation("com.terraformersmc:modmenu:${rootProject.mod_menu_version}")
 
     modImplementation "net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+${rootProject.minecraft_version}+fabric"
-    modImplementation "dev.isxander:yet-another-config-lib:${project.yacl_version}+${rootProject.minecraft_version}-fabric"
 }
 
 processResources {
