@@ -14,7 +14,7 @@ import static immersive_aircraft.ItemColors.getDyeColor;
 public class AviatorDreamsNeoForgeClient {
     @SubscribeEvent
     public static void setup(FMLClientSetupEvent event) {
-        AviatorDreamsClient.registerEntityRenderer();
+        event.enqueueWork(AviatorDreamsClient::registerEntityRenderer);
     }
 
     @SubscribeEvent
