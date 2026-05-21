@@ -5,7 +5,7 @@ import net.cerealcamera.aviator_dream.AviatorDreamsClient;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 
 import static immersive_aircraft.ItemColors.getDyeColor;
@@ -13,7 +13,7 @@ import static immersive_aircraft.ItemColors.getDyeColor;
 @EventBusSubscriber(modid = AviatorDreams.MOD_ID, value = Dist.CLIENT)
 public class AviatorDreamsNeoForgeClient {
     @SubscribeEvent
-    public static void setup(FMLClientSetupEvent event) {
+    public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
         AviatorDreamsClient.registerEntityRenderer();
     }
 
