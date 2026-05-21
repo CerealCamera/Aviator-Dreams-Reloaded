@@ -1,40 +1,40 @@
 {
   "item.aviator_dream.douglas_dc1": "道格拉斯 DC-1",
-  "item.aviator_dream.douglas_dc1.description": "由道格拉斯飛機製造的原型飛機，將以 DC-2 和 DC-3 的身份繼續其旅程。它可靠，快速，能夠承載很多，但它有點不穩定。",
+  "item.aviator_dream.douglas_dc1.description": "由道格拉斯飛機公司製造的原型客機，後續發展為 DC-2 和 DC-3 。它可靠、快速且載重量大，但穩定性略顯不足。",
   "entity.aviator_dream.douglas_dc1": "道格拉斯 DC-1",
 
   "item.aviator_dream.douglas_dc2": "道格拉斯 DC-2",
-  "item.aviator_dream.douglas_dc2.description": "DC-1 的生產版本。它配備了更多座椅和更強大的引擎，以及一些修改以使其更穩定。",
+  "item.aviator_dream.douglas_dc2.description": "DC-1 的量產版本，配備更多座位和更強大的引擎，並進行了一些改進以提升穩定性。",
   "entity.aviator_dream.douglas_dc2": "道格拉斯 DC-2",
 
   "item.aviator_dream.douglas_c47": "道格拉斯 C-47",
-  "item.aviator_dream.douglas_c47.description": "DC-3 的軍用版本專注於貨物運輸，配備了 14 缸發動機。這件東西可以承載比之前的類型更多。",
+  "item.aviator_dream.douglas_c47.description": "DC-3 的軍用版本，專注於貨物運輸，改裝了 14 缸引擎。相較於前型號，此機型載重量更大。",
   "entity.aviator_dream.douglas_c47": "道格拉斯 C-47",
-  
-  "item.aviator_dream.lockheed_l1049g": "洛克希德 L-1049 克",
-  "item.aviator_dream.lockheed_l1049g.description": "專為長途和高速度而設計的客機。",
-  "entity.aviator_dream.lockheed_l1049g": "洛克希德 L-1049 克",
-  
-  "item.aviator_dream.fokker_fviib3m": "福克爾足球俱樂部 VIIB-3M",
-  "item.aviator_dream.fokker_fviib3m.description": "F.VIIA 的升級版本，加入了另外兩個引擎，以提高可靠性。",
-  "entity.aviator_dream.fokker_fviib3m": "福克爾足球俱樂部 VIIB-3M",
-  
-  "item.aviator_dream.fokker_fviia": "福克爾維亞足球俱樂部",
-  "item.aviator_dream.fokker_fviia.description": "一架裝有一個 7 缸發動機的木製客機。它很慢且功率不足，但是當時初級航空公司所有者來說是最好的選擇。",
-  "entity.aviator_dream.fokker_fviia": "福克爾維亞足球俱樂部",
-  
-  "item.aviator_dream.dehavilland_dh106": "德哈維蘭德 DH.106 第一號 Comet",
-  "item.aviator_dream.dehavilland_dh106.description": "世界上第一架噴氣客客機。配備四個離心流噴射引擎，它飛行速度比其他螺旋槳驅動的飛機更快，但消耗更多的燃料。這個還有機身加強，因此它不會再重複其歷史。",
-  "entity.aviator_dream.dehavilland_dh106": "德哈維蘭德 DH.106 第一號 Comet",
 
-  "item.aviator_dream.toyota_stout_k100": "豐田斯托特 RK100",
-  "item.aviator_dream.toyota_stout_k100.description": "一輛配備四缸直列引擎的輕型卡車。便宜且可靠，只要給它足夠的燃料，這個東西就會對您起作用。只要確保不要開車太快。",
-  "entity.aviator_dream.toyota_stout_k100": "豐田斯托特 RK100",
+  "item.aviator_dream.lockheed_l1049g": "洛克希德 L-1049G",
+  "item.aviator_dream.lockheed_l1049g.description": "一款專為長途高速飛行設計的客機。",
+  "entity.aviator_dream.lockheed_l1049g": "洛克希德 L-1049G",
+
+  "item.aviator_dream.fokker_fviib3m": "福克 F.VIIB-3M",
+  "item.aviator_dream.fokker_fviib3m.description": "F.VIIA 的升級版本，新增兩台引擎以提升可靠性。",
+  "entity.aviator_dream.fokker_fviib3m": "福克 F.VIIB-3M",
+
+  "item.aviator_dream.fokker_fviia": "福克 F.VIIA",
+  "item.aviator_dream.fokker_fviia.description": "一款搭載單台 7 缸引擎的木製客機。雖然速度慢且動力不足，但在那個時代是初創航空公司業主的首選。",
+  "entity.aviator_dream.fokker_fviia": "福克 F.VIIA",
+
+  "item.aviator_dream.dehavilland_dh106": "德哈維蘭 DH.106 彗星 1",
+  "item.aviator_dream.dehavilland_dh106.description": "世界上首款噴射客機。搭載四台離心流噴射引擎，飛行速度比其他螺旋槳飛機更快，但燃料消耗也較高。",
+  "entity.aviator_dream.dehavilland_dh106": "德哈維蘭 DH.106 彗星 1",
+
+  "item.aviator_dream.toyota_stout_k100": "豐田 Stout RK100",
+  "item.aviator_dream.toyota_stout_k100.description": "一款搭載四缸直列引擎的輕型卡車。價格低廉且可靠，只要燃料充足，它就能持續為你工作。但請注意不要開得太快。",
+  "entity.aviator_dream.toyota_stout_k100": "豐田 Stout RK100",
 
   "item.aviator_dream.test": "測試實體",
   "item.aviator_dream.test.description": "用作地面車輛基礎的測試實體。",
   "entity.aviator_dream.test": "測試實體",
 
   "advancements.aviator_dream.aviators_dream": "飛行員的夢想",
-  "advancements.aviator_dream.aviators_dream.description": "獲得星座 1"
+  "advancements.aviator_dream.aviators_dream.description": "德哈維蘭 DH.106 彗星 1"
 }
