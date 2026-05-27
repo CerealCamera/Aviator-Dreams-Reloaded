@@ -12,6 +12,7 @@ authors = "CerealCamera"
 description = "Realistic aircraft for Immersive Aircraft"
 logoFile = "icon.png"
 itemIcon = "aviator_dream:douglas_dc1"
+updateJSONURL = "https://api.modrinth.com/updates/aviator-dreams-reloaded/forge_updates.json?forge_only"
 
 [[dependencies.aviator_dream]]
 modId = "minecraft"
