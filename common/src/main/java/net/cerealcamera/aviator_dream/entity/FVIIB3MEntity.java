@@ -68,7 +68,7 @@ public class FVIIB3MEntity extends AirplaneEntity {
             shuttingDown = true;
         }
 
-        if (level().isClientSide) {
+        if (level().isClientSide()) {
             if (durationLow > 0) {
                 durationLow--;
             }

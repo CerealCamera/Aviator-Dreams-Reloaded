@@ -1,7 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "aviator_dream:item/lockheed_l1049g_color",
-    "layer1": "aviator_dream:item/lockheed_l1049g"
+    "layer0": "aviator_dream:item/lockheed_l1049g"
   }
 }

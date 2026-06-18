@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "aviator_dream",
+  "id": "${id}",
   "version": "${version}",
-
-  "name": "Aviator Dreams Reloaded",
-  "description": "Realistic aircraft for Immersive Aircraft",
-  "authors": ["CerealCamera"],
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "${author}"
+  ],
   "contact": {
-    "homepage": "https://modrinth.com/project/AOYDdieB",
-    "sources": "https://github.com/CerealCamera/Aviator-Dreams-Reloaded",
-    "issues": "https://github.com/CerealCamera/Aviator-Dreams-Reloaded/issues"
+    "homepage": "${websiteUrl}",
+    "sources": "${sourcesUrl}",
+    "issues": "${issueTrackerUrl}"
   },
-
-  "license": "GNU GPL 3.0",
+  "license": "${license}",
   "icon": "icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [

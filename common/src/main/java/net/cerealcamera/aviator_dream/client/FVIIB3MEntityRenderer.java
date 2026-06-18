@@ -4,12 +4,12 @@ import immersive_aircraft.client.render.entity.renderer.AircraftEntityRenderer;
 import immersive_aircraft.client.render.entity.renderer.utils.ModelPartRenderHandler;
 import immersive_aircraft.entity.AircraftEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.cerealcamera.aviator_dream.AviatorDreams;
 import net.cerealcamera.aviator_dream.entity.FVIIB3MEntity;
 
 public class FVIIB3MEntityRenderer extends AircraftEntityRenderer<FVIIB3MEntity> {
-    private static final ResourceLocation ID = AviatorDreams.locate("fokker_fviib3m");
+    private static final Identifier ID = AviatorDreams.locate("fokker_fviib3m");
 
     private final ModelPartRenderHandler<FVIIB3MEntity> model = new ModelPartRenderHandler<FVIIB3MEntity>()
             .add("dyed_body", (model, object, vertexConsumerProvider, entity, matrixStack, light, time, modelPartRenderer) ->
@@ -18,7 +18,7 @@ public class FVIIB3MEntityRenderer extends AircraftEntityRenderer<FVIIB3MEntity>
                     renderDyed(model, object, vertexConsumerProvider, entity, matrixStack, light, time, true, false));
 
     @Override
-    protected ResourceLocation getModelId() {
+    protected Identifier getModelId() {
         return ID;
     }
 

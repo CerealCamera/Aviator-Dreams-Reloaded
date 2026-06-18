@@ -39,11 +39,22 @@ dependencies {
 }
 
 processResources {
-    inputs.property 'version', project.version
+    def props = [
+            "id"                 : project.id,
+            "name"               : project.displayname,
+            "description"        : project.description,
+            "author"             : project.author,
+            "license"            : project.license,
+            "websiteUrl"         : project.website,
+            "sourcesUrl"         : project.sources,
+            "issueTrackerUrl"    : project.issues,
+            "forgeUpdateUrl"     : project.updater,
+            "version"            : project.version,
+            "minecraftDependency": project.fabric_minecraft_dependency
+    ]
 
-    filesMatching('fabric.mod.json') {
-        expand version: inputs.properties.version
-    }
+    inputs.properties props
+    filesMatching("fabric.mod.json") { expand props }
 }
 
 shadowJar {

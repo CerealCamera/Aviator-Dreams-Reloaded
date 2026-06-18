@@ -1,7 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "aviator_dream:item/test",
-    "layer1": "aviator_dream:item/test_color"
+    "layer0": "aviator_dream:item/test_color"
   }
 }

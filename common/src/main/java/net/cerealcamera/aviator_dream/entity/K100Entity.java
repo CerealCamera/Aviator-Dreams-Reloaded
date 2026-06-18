@@ -108,7 +108,7 @@ public class K100Entity extends Rotorcraft {
     public void tick() {
         super.tick();
 
-        if (level().isClientSide) {
+        if (level().isClientSide()) {
             if (durationLow > 0) {
                 durationLow--;
             }

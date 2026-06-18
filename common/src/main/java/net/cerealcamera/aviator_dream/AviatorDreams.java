@@ -2,18 +2,18 @@ package net.cerealcamera.aviator_dream;
 
 import immersive_aircraft.Items;
 import immersive_aircraft.cobalt.registration.Registration;
-import immersive_aircraft.item.DyeableAircraftItem;
+import immersive_aircraft.item.AircraftItem;
 import net.cerealcamera.aviator_dream.entity.*;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.item.Item;
 
 import java.util.function.Supplier;
-
-import static immersive_aircraft.Items.baseProps;
 
 public class AviatorDreams {
     public static final String MOD_ID = "aviator_dream";
@@ -40,15 +40,15 @@ public class AviatorDreams {
 
     public static void init() {
         // Register items
-        DOUGLAS_DC1_ITEM = register("douglas_dc1", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DouglasDC1Entity(DOUGLAS_DC1_ENTITY.get(), world)));
-        DOUGLAS_DC2_ITEM = register("douglas_dc2", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DouglasDC2Entity(DOUGLAS_DC2_ENTITY.get(), world)));
-        DOUGLAS_C47_ITEM = register("douglas_c47", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DouglasC47Entity(DOUGLAS_C47_ENTITY.get(), world)));
-        LOCKHEED_L1049G_ITEM = register("lockheed_l1049g", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new LockheedL1049GEntity(LOCKHEED_L1049G_ENTITY.get(), world)));
-        TEST_ITEM = register("test", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new Test(TEST_ENTITY.get(), world)));
-        DEHAVILLANDDH106_ITEM = register("dehavilland_dh106", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new DehavillandDH106Entity(DEHAVILLANDDH106_ENTITY.get(), world)));
-        FVIIB3M_ITEM = register("fokker_fviib3m", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new FVIIB3MEntity(FVIIB3M_ENTITY.get(), world)));
-        FVIIA_ITEM = register("fokker_fviia", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new FVIIAEntity(FVIIA_ENTITY.get(), world)));
-        K100_ITEM = register("toyota_stout_k100", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new K100Entity(K100_ENTITY.get(), world)));
+        DOUGLAS_DC1_ITEM = register("douglas_dc1", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new DouglasDC1Entity(DOUGLAS_DC1_ENTITY.get(), world)));
+        DOUGLAS_DC2_ITEM = register("douglas_dc2", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new DouglasDC2Entity(DOUGLAS_DC2_ENTITY.get(), world)));
+        DOUGLAS_C47_ITEM = register("douglas_c47", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new DouglasC47Entity(DOUGLAS_C47_ENTITY.get(), world)));
+        LOCKHEED_L1049G_ITEM = register("lockheed_l1049g", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new LockheedL1049GEntity(LOCKHEED_L1049G_ENTITY.get(), world)));
+        TEST_ITEM = register("test", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new Test(TEST_ENTITY.get(), world)));
+        DEHAVILLANDDH106_ITEM = register("dehavilland_dh106", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new DehavillandDH106Entity(DEHAVILLANDDH106_ENTITY.get(), world)));
+        FVIIB3M_ITEM = register("fokker_fviib3m", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new FVIIB3MEntity(FVIIB3M_ENTITY.get(), world)));
+        FVIIA_ITEM = register("fokker_fviia", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new FVIIAEntity(FVIIA_ENTITY.get(), world)));
+        K100_ITEM = register("toyota_stout_k100", (name) -> new AircraftItem(baseProps(name).stacksTo(1), world -> new K100Entity(K100_ENTITY.get(), world)));
 
         // Register entities
         DOUGLAS_DC1_ENTITY = register("douglas_dc1", EntityType.Builder
@@ -107,18 +107,24 @@ public class AviatorDreams {
         );
     }
 
-    static Supplier<Item> register(String name, Supplier<Item> item) {
-        Supplier<Item> register = Registration.register(BuiltInRegistries.ITEM, AviatorDreams.locate(name), item);
+    static Supplier<Item> register(String name, java.util.function.Function<String, Item> factory) {
+        Identifier id = AviatorDreams.locate(name);
+        Supplier<Item> register = Registration.register(BuiltInRegistries.ITEM, id, () -> factory.apply(name));
         Items.items.add(register);
         return register;
     }
 
     static <T extends Entity> Supplier<EntityType<T>> register(String name, EntityType.Builder<T> builder) {
-        ResourceLocation id = AviatorDreams.locate(name);
-        return Registration.register(BuiltInRegistries.ENTITY_TYPE, id, () -> builder.build(id.toString()));
+        Identifier id = AviatorDreams.locate(name);
+        ResourceKey<EntityType<?>> key = ResourceKey.create(Registries.ENTITY_TYPE, id);
+        return Registration.register(BuiltInRegistries.ENTITY_TYPE, id, () -> builder.build(key));
     }
 
-    public static ResourceLocation locate(String name) {
-        return ResourceLocation.fromNamespaceAndPath(AviatorDreams.MOD_ID, name);
+    static Item.Properties baseProps(String name) {
+        return new Item.Properties().setId(ResourceKey.create(Registries.ITEM, AviatorDreams.locate(name)));
+    }
+
+    public static Identifier locate(String name) {
+        return Identifier.fromNamespaceAndPath(AviatorDreams.MOD_ID, name);
     }
 }

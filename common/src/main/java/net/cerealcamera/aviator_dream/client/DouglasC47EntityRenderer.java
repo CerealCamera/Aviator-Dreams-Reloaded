@@ -4,12 +4,12 @@ import immersive_aircraft.client.render.entity.renderer.AircraftEntityRenderer;
 import immersive_aircraft.client.render.entity.renderer.utils.ModelPartRenderHandler;
 import immersive_aircraft.entity.AircraftEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.cerealcamera.aviator_dream.AviatorDreams;
 import net.cerealcamera.aviator_dream.entity.DouglasC47Entity;
 
 public class DouglasC47EntityRenderer extends AircraftEntityRenderer<DouglasC47Entity> {
-    private static final ResourceLocation ID = AviatorDreams.locate("douglas_c47");
+    private static final Identifier ID = AviatorDreams.locate("douglas_c47");
 
     private final ModelPartRenderHandler<DouglasC47Entity> model = new ModelPartRenderHandler<DouglasC47Entity>()
             .add("dyed_body", (model, object, vertexConsumerProvider, entity, matrixStack, light, time, modelPartRenderer) ->
@@ -18,7 +18,7 @@ public class DouglasC47EntityRenderer extends AircraftEntityRenderer<DouglasC47E
                     renderDyed(model, object, vertexConsumerProvider, entity, matrixStack, light, time, true, false));
 
     @Override
-    protected ResourceLocation getModelId() {
+    protected Identifier getModelId() {
         return ID;
     }
 

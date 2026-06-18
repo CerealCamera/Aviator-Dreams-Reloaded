@@ -58,7 +58,7 @@ public class DouglasDC2Entity extends AirplaneEntity {
             reactionSpeed = 150.0f;
         }
 
-        if (level().isClientSide) {
+        if (level().isClientSide()) {
             if (durationLow > 0) {
                 durationLow--;
             }

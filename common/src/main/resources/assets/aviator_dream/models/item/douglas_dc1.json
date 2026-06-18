@@ -1,7 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "aviator_dream:item/douglas_dc1_color",
-    "layer1": "aviator_dream:item/douglas_dc1"
+    "layer0": "aviator_dream:item/douglas_dc1"
   }
 }
