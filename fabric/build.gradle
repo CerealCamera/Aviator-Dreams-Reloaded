@@ -40,17 +40,20 @@ dependencies {
 
 processResources {
     def props = [
-            "id"                 : project.id,
-            "name"               : project.displayname,
-            "description"        : project.description,
-            "author"             : project.author,
-            "license"            : project.license,
-            "websiteUrl"         : project.website,
-            "sourcesUrl"         : project.sources,
-            "issueTrackerUrl"    : project.issues,
-            "forgeUpdateUrl"     : project.updater,
-            "version"            : project.version,
-            "minecraftDependency": project.fabric_minecraft_dependency
+            "id"                         : project.id,
+            "name"                       : project.displayname,
+            "description"                : project.description,
+            "author"                     : project.author,
+            "license"                    : project.license,
+            "websiteUrl"                 : project.website,
+            "sourcesUrl"                 : project.sources,
+            "issueTrackerUrl"            : project.issues,
+            "forgeUpdateUrl"             : project.updater,
+            "version"                    : project.version,
+            "fabricLoaderDependency"     : project.fabric_loader_dependency,
+            "minecraftDependency"        : project.fabric_minecraft_dependency,
+            "immersiveAircraftDependency": project.fabric_immersive_aircraft_dependency,
+            "fabricAPIDependency"        : project.fabric_api_dependency
     ]
 
     inputs.properties props

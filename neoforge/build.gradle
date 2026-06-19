@@ -45,17 +45,18 @@ dependencies {
 
 processResources {
     def props = [
-            "id"                 : project.id,
-            "name"               : project.displayname,
-            "description"        : project.description,
-            "author"             : project.author,
-            "license"            : project.license,
-            "websiteUrl"         : project.website,
-            "issueTrackerUrl"    : project.issues,
-            "forgeUpdateUrl"     : project.updater,
-            "version"            : project.version,
-            "minecraftDependency": project.neoforge_minecraft_dependency,
-            "neoForgeVersion"    : project.neoforge_dependency
+            "id"                         : project.id,
+            "name"                       : project.displayname,
+            "description"                : project.description,
+            "author"                     : project.author,
+            "license"                    : project.license,
+            "websiteUrl"                 : project.website,
+            "issueTrackerUrl"            : project.issues,
+            "forgeUpdateUrl"             : project.updater,
+            "version"                    : project.version,
+            "minecraftDependency"        : project.neoforge_minecraft_dependency,
+            "neoForgeVersion"            : project.neoforge_dependency,
+            "immersiveAircraftDependency": project.neoforge_immersive_aircraft_dependency
     ]
 
     inputs.properties props

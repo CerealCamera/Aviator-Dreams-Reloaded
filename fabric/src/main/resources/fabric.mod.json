@@ -27,9 +27,9 @@
     "aviator_dream.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.11.3",
-    "minecraft": ">=1.21.1",
-    "immersive_aircraft": ">=1.3.0",
-    "fabric-api-base": ">=0.1.0"
+    "fabricloader": "${fabricLoaderDependency}",
+    "minecraft": "${minecraftDependency}",
+    "immersive_aircraft": "${immersiveAircraftDependency}",
+    "fabric-api-base": "${fabricAPIDependency}"
   }
 }
