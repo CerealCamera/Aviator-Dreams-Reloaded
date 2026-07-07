@@ -1,6 +1,8 @@
 This mod is available on [Modrinth](https://modrinth.com/mod/aviator-dreams-reloaded) and [Curseforge](https://www.curseforge.com/minecraft/mc-mods/aviator-dreams-reloaded)
 
-[![Aviator Dreams (Reloaded)](https://modfolio.creeperkatze.de/modrinth/project/aviator-dreams-reloaded?maxVersions=4&showSummary=true&showBorder=false)](https://modrinth.com/mod/aviator-dreams-reloaded)
+<div align="center">
+<img width="512" height="512" alt="Aviator Dreams Reloaded Icon" src="https://github.com/CerealCamera/Aviator-Dreams-Reloaded/blob/b4c397a7df57e4d54e298fa980ec645fbee5b59a/neoforge/src/main/resources/icon.png"/>
+</div>
 
 # What is Aviator Dreams (Reloaded)?
 Well, it is a fork of [Aviator Dreams](https://github.com/Naxgeneral/Aviator-Dream) [(by Nax)](https://github.com/Naxgeneral) which adds improvements and fixes to the original mod and is made for newer versions.
