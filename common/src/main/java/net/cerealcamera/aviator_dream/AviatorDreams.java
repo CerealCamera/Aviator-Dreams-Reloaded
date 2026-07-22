@@ -71,7 +71,7 @@ public class AviatorDreams {
         );
         LOCKHEED_L1049G_ENTITY = register("lockheed_l1049g", EntityType.Builder
                 .of(LockheedL1049GEntity::new, MobCategory.MISC)
-                .sized(5f, 3.5f)
+                .sized(1.5f, 3.5f)
                 .clientTrackingRange(20)
                 .fireImmune()
         );
@@ -83,7 +83,7 @@ public class AviatorDreams {
         );
         DEHAVILLANDDH106_ENTITY = register("dehavilland_dh106", EntityType.Builder
                 .of(DehavillandDH106Entity::new, MobCategory.MISC)
-                .sized(5f, 3.0f)
+                .sized(1.5f, 3.0f)
                 .clientTrackingRange(20)
                 .fireImmune()
         );
