@@ -7,19 +7,13 @@
   ],
   "key": {
     "I": [
-      {
-        "item": "minecraft:iron_ingot"
-      }
+      "minecraft:iron_ingot"
     ],
     "E": [
-      {
-        "item": "immersive_aircraft:engine"
-      }
+      "immersive_aircraft:engine"
     ],
     "B": [
-      {
-        "item": "minecraft:iron_block"
-      }
+      "minecraft:iron_block"
     ]
   },
   "result": {

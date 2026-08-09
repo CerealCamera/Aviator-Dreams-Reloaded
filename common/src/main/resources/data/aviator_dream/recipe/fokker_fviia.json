@@ -7,19 +7,13 @@
   ],
   "key": {
     "E": [
-      {
-        "item": "immersive_aircraft:engine"
-      }
+      "immersive_aircraft:engine"
     ],
     "P": [
-      {
-        "item": "immersive_aircraft:propeller"
-      }
+      "immersive_aircraft:propeller"
     ],
     "H": [
-      {
-        "item": "immersive_aircraft:hull"
-      }
+      "immersive_aircraft:hull"
     ]
   },
   "result": {

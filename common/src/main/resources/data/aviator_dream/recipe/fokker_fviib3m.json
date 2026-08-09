@@ -7,19 +7,13 @@
   ],
   "key": {
     "E": [
-      {
-        "item": "immersive_aircraft:engine"
-      }
+      "immersive_aircraft:engine"
     ],
     "P": [
-      {
-        "item": "immersive_aircraft:propeller"
-      }
+      "immersive_aircraft:propeller"
     ],
     "F": [
-      {
-        "item": "aviator_dream:fokker_fviia"
-      }
+      "aviator_dream:fokker_fviia"
     ]
   },
   "result": {
