@@ -23,13 +23,9 @@
       "net.cerealcamera.aviator_dream.fabric.AviatorDreamsFabricClient"
     ]
   },
-  "mixins": [
-    "aviator_dream.mixins.json"
-  ],
   "depends": {
-    "fabricloader": "${fabricLoaderDependency}",
-    "minecraft": "${minecraftDependency}",
-    "immersive_aircraft": "${immersiveAircraftDependency}",
-    "fabric-api-base": "${fabricAPIDependency}"
+    "minecraft": "26.1.2",
+    "immersive_aircraft": "*",
+    "fabric-api": "*"
   }
 }

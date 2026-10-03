@@ -17,20 +17,20 @@ itemIcon = "aviator_dream:douglas_dc1"
 [[dependencies.${id}]]
 modId = "neoforge"
 type = "required"
-versionRange = "${neoForgeVersion}"
+versionRange = "[26.1.2, 26.2)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.${id}]]
 modId = "minecraft"
 type = "required"
-versionRange = "${minecraftDependency}"
+versionRange = "[26.1.2, 26.2)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.${id}]]
 modId = "immersive_aircraft"
 type = "required"
-versionRange = "${immersiveAircraftDependency}"
+versionRange = "[1,)"
 ordering = "AFTER"
 side = "BOTH"

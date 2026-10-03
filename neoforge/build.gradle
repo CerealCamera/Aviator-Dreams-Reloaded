@@ -37,10 +37,10 @@ dependencies {
     forgeRuntimeLibrary 'org.mariuszgromada.math:MathParser.org-mXparser:5.2.1'
     include 'org.mariuszgromada.math:MathParser.org-mXparser:5.2.1'
 
-    common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
+    common(project(path: ':common')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
 
-    modImplementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+${rootProject.minecraft_version}+neoforge")
+    implementation("net.conczin:immersive_aircraft:${rootProject.immersive_aircraft_version}+${rootProject.minecraft_version}+neoforge")
 }
 
 processResources {
@@ -53,10 +53,7 @@ processResources {
             "websiteUrl"                 : project.website,
             "issueTrackerUrl"            : project.issues,
             "forgeUpdateUrl"             : project.updater,
-            "version"                    : project.version,
-            "minecraftDependency"        : project.neoforge_minecraft_dependency,
-            "neoForgeVersion"            : project.neoforge_dependency,
-            "immersiveAircraftDependency": project.neoforge_immersive_aircraft_dependency
+            "version"                    : project.version
     ]
 
     inputs.properties props
@@ -65,11 +62,26 @@ processResources {
     }
 }
 
-shadowJar {
-    configurations = [project.configurations.shadowBundle]
-    archiveClassifier = 'dev-shadow'
+// Minecraft is not obfuscated on this version, so there is no remapJar task.
+// The shaded jar is the mod jar that ships.
+jar {
+    archiveClassifier = 'dev'
 }
 
-remapJar {
-    inputFile.set shadowJar.archiveFile
+shadowJar {
+    configurations = [project.configurations.shadowBundle]
+    archiveClassifier = null
+}
+
+assemble.dependsOn shadowJar
+
+configurations {
+    apiElements {
+        outgoing.artifacts.clear()
+        outgoing.artifact(shadowJar)
+    }
+    runtimeElements {
+        outgoing.artifacts.clear()
+        outgoing.artifact(shadowJar)
+    }
 }
