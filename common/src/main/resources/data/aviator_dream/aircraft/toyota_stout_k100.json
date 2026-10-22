@@ -2,8 +2,6 @@
   "properties": {
     "stabilizer": 0.0,
     "yawSpeed": 0.0,
-    "friction": 0.015,
-    "brakeFactor": 0.95,
     "engineSpeed": 0.15,
     "verticalSpeed": 0.0,
     "glideFactor": 0.01,
