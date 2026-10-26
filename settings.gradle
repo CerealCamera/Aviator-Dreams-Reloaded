@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'Aviator-Dreams-Reloaded'
+rootProject.name = 'aviator_dream'
 
 include 'common'
 include 'fabric'
