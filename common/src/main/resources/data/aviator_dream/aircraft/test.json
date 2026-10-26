@@ -5,12 +5,11 @@
     "engineSpeed": 0.125,
     "verticalSpeed": 0.0,
     "glideFactor": 0.01,
-    "driftDrag": 0.0,
     "lift": 0.0,
     "rollFactor": 2.0,
     "wind": 0.0,
     "mass": 5.0,
-    "groundFriction": 0.005,
+    "groundFriction": 1.0,
     "horizontalDecay": 0.925,
     "verticalDecay": 1.0
   },
